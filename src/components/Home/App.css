@@ -1,0 +1,37 @@
+.jumbotron {
+  height: 500px
+}
+
+.navbar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: rgba(0,0,0,0);
+  transition: all 0.3s;
+}
+
+.navbar button {
+  color: inherit !important;
+}
+
+.navbar.compressed {
+  padding-top: 10px;
+  background: white;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.bigIcon {
+  width:50px;
+  height: 50px;
+}
+
+.smallIcon {
+  width:30px;
+  height: 30px;
+  transition: all 0.3s;
+}
+
+.hidden {
+  display: none
+}
+
