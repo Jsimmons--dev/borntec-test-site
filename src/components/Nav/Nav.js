@@ -15,11 +15,11 @@ export class Nav extends Component {
                         </a>
                         <h5 className="header nav-link hidden">BornTec</h5>
                     </div>
-                    <div style={{ width: '600px', display: 'flex', justifyContent: 'space-between' }}>
+                    <div style={{ width: '700px', display: 'flex', justifyContent: 'space-between' }}>
                         <Link to='/' className='nav-link text-white'>Home</Link>
+                        <Link to='/solutions' className='nav-link nav-box text-white'>Our Solutions</Link>
                         <Link to='/services' className='nav-link text-white'>Our Services</Link>
                         <Link to='/clients' className='nav-link text-white'>Our Clients</Link>
-                        <Link to='/about' className='nav-link text-white'>About Us</Link>
                         <Link to='/contact' className='nav-link text-white'>Contact Us</Link>
                     </div>
                 </div>

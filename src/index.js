@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/Home/App';
+import { Solutions } from './components/Solutions/Solutions'
 import { Services } from './components/Services/Services'
 import registerServiceWorker from './registerServiceWorker'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
@@ -12,6 +13,7 @@ ReactDOM.render((
         <div>
             <Nav />
             <Route exact path="/" component={App} />
+            <Route path="/solutions" component={Solutions} />
             <Route path="/services" component={Services} />
         </div>
 

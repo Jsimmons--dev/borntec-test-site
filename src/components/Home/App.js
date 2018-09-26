@@ -6,7 +6,7 @@ import { Header } from '../Header/Header';
 import { TagLine } from '../TagLine/TagLine';
 import { Footer } from '../Footer/Footer';
 import { Services } from '../Services/Services';
-import { Solutions } from '../Solutions/Solutions';
+import SolutionsOverview from './SolutionsOverview';
 
 
 class App extends Component {
@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Solutions />
+        <SolutionsOverview />
         <Services />
         <Footer />
       </div >
