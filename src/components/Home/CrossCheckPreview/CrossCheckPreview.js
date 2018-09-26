@@ -8,8 +8,8 @@ class CrossCheckPreview extends Component {
             <div class="card" style={{width: '18rem', margin:'10px'}}>
                 <img class="card-img-top" src=".../100px180/" alt="Card image cap" />
                 <div class="card-body">
-                    <h5 class="card-title">Cross Check</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title" align="center">Cross Check</h5>
+                    <p class="card-text" align="center">Compliance and Monitoring System, MiFID II, CFTC and MAR</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
                 <br />
