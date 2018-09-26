@@ -1,10 +1,10 @@
 import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
-import CrossCheckPreview from '../CrossCheckPreview/CrossCheckPreview';
-import JetConnectPreview from '../JetConnectPreview/JetConnectPreview';
-import TraCPreview from '../TraCPreview/TraCPreview';
-import CorePreview from '../CorePreview/CorePreview';
+import CrossCheckPreview from './CrossCheckPreview/CrossCheckPreview';
+import JetConnectPreview from './JetConnectPreview/JetConnectPreview';
+import TraCPreview from './TraCPreview/TraCPreview';
+import CorePreview from "./CorePreview/CorePreview";
 
 
 
@@ -16,7 +16,7 @@ class SolutionsOverview extends Component {
                 <br/>
                 <br/>
                 <br/>
-                <h3 style={{ flex: 1 }}><strong style={{color:'blue'}}>TRADING RISK MANAGEMENT</strong> SOLUTIONS</h3>
+                <h3 style={{ flex: 1 }}><strong style={{color:'red'}}>TRADING RISK MANAGEMENT</strong> SOLUTIONS</h3>
                 <br/>
                 <br/>
                 <br/>
