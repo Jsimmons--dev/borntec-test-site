@@ -14,7 +14,7 @@ class ServicesOverview extends Component {
                 <br/>
                 <br/>
                 <br/>
-                <h3 style={{ flex: 1 }}><strong style={{color:'red'}}>TRADING RISK MANAGEMENT</strong> SOLUTIONS</h3>
+                <h3 style={{ flex: 1 }}><strong style={{color:'red'}}>Trading Technology</strong> Services</h3>
                 <br/>
                 <br/>
                 <br/>
