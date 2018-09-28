@@ -7,7 +7,7 @@ export class Solutions extends Component {
     render() {
         return (
             <div >
-                <Header src={'url(./assets/plane.jpg)'} text={'FlightControl Suite'} />
+                <Header src={'url(./assets/plane.jpg)'} text={'Meet Our Solutions'} />
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1 align='center' class="display-4">Cross Check</h1>
