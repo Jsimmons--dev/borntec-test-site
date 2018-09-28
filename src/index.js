@@ -31,10 +31,12 @@ $(window).on("scroll", function () {
         //add the compressed css class to anything with class navbar
         $(".navbar").addClass("compressed");
         $(".navbar").addClass("bg-dark");    
+        $(".navbar").removeClass("top-down-gradient");    
         //add the text-dark css class to any <a> tag that is a child of something with class navbar
         $(".navbar a").addClass("text-light");
         //add the smallIcon css class to anything with class logo
-        $(".logo").addClass("smallIcon");
+        $(".logo").removeClass("brand-icon");
+        $(".logo").addClass("brand-icon-small");
         //remove the hidden css class to any <h5> that is a child of something with class navbar
         $("nav h5").removeClass("hidden");
     } else {
@@ -42,7 +44,9 @@ $(window).on("scroll", function () {
         $(".navbar").removeClass("compressed");
         $(".navbar a").removeClass("text-light");
         $(".navbar").removeClass("bg-dark");    
-        $(".logo").removeClass("smallIcon");
+        $(".logo").addClass("brand-icon");
+        $(".logo").removeClass("brand-icon-small");
         $("nav h5").addClass("hidden");
+        $(".navbar").addClass("top-down-gradient"); 
     }
 });

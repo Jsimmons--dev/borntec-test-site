@@ -14,7 +14,7 @@ class ServicesOverview extends Component {
                 <br/>
                 <br/>
                 <br/>
-                <h1 style={{ flex: 1, color:"DodgerBlue"  }}><strong style={{color:'White'}}>Trading Technology</strong> Services</h1>
+                <h1 align='center' style={{ flex: 1, color:"DodgerBlue"  }}><strong style={{color:'White'}}>TRADING TECHNOLOGY</strong> SERVICES</h1>
                 <br/>
                 <br/>
                 <br/>

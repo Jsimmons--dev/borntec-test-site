@@ -16,7 +16,7 @@ class SolutionsOverview extends Component {
                 <br/>
                 <br/>
                 <br/>
-                <h1 style={{ flex: 1, color:"coral" }}><strong style={{color:'white'}}>TRADING RISK MANAGEMENT</strong> SOLUTIONS</h1>
+                <h1 align='center' style={{ flex: 1, color:"coral" }}><strong style={{color:'white'}}>TRADING RISK MANAGEMENT</strong> SOLUTIONS</h1>
                 <br/>
                 <br/>
                 <br/>
