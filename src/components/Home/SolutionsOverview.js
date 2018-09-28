@@ -6,22 +6,22 @@ import JetConnectPreview from './JetConnectPreview/JetConnectPreview';
 import TraCPreview from './TraCPreview/TraCPreview';
 import CorePreview from "./CorePreview/CorePreview";
 
-
+//style={{ display: 'flex', justifyContent: 'space-around', flexDirection: 'column', alignItems: 'center'}}  >
 
 class SolutionsOverview extends Component {
     render() {
         return (
-            <div class="container" style={{ display: 'flex', justifyContent: 'space-around', flexDirection: 'column', alignItems: 'center'}}  >
+            <div className="container-fluid" > 
                 <br/>
                 <br/>
                 <br/>
                 <br/>
-                <h3 style={{ flex: 1 }}><strong style={{color:'red'}}>TRADING RISK MANAGEMENT</strong> SOLUTIONS</h3>
+                <h3 align='center'><strong style={{color:'red'}}>TRADING RISK MANAGEMENT</strong> SOLUTIONS</h3>
                 <br/>
                 <br/>
                 <br/>
                 <br/>  
-                <div style={{ display:'flex' }}>
+                <div>
                     <CrossCheckPreview />
                     <JetConnectPreview />
                     <TraCPreview />

@@ -9,7 +9,7 @@ import CorePreview from "./CorePreview/CorePreview";
 class ServicesOverview extends Component {
     render() {
         return (
-            <div class="container" style={{ display: 'flex', justifyContent: 'space-around', flexDirection: 'column', alignItems: 'center'}}  >
+            <div className="container">
                 <br/>
                 <br/>
                 <br/>
@@ -19,7 +19,7 @@ class ServicesOverview extends Component {
                 <br/>
                 <br/>
                 <br/>  
-                <div style={{ display:'flex' }}>
+                <div>
                     <CrossCheckPreview />
                     <JetConnectPreview />
                     <TraCPreview />

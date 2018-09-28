@@ -12,7 +12,7 @@ import { Footer } from './components/Footer/Footer';
 
 ReactDOM.render((
     <Router>
-        <div>
+        <div className="">
             <Nav />
             <Route exact path="/" component={App} />
             <Route path="/solutions" component={Solutions} />
@@ -30,17 +30,19 @@ $(window).on("scroll", function () {
     if ($(window).scrollTop() >= 20) {
         //add the compressed css class to anything with class navbar
         $(".navbar").addClass("compressed");
+        $(".navbar").addClass("bg-dark");    
         //add the text-dark css class to any <a> tag that is a child of something with class navbar
-        $(".navbar a").addClass("text-dark");
+        $(".navbar a").addClass("text-light");
         //add the smallIcon css class to anything with class logo
         $(".logo").addClass("smallIcon");
         //remove the hidden css class to any <h5> that is a child of something with class navbar
-        $(".navbar h5").removeClass("hidden");
+        $("nav h5").removeClass("hidden");
     } else {
         //else we are close to the top again so remove all these classes
         $(".navbar").removeClass("compressed");
-        $(".navbar a").removeClass("text-dark");
+        $(".navbar a").removeClass("text-light");
+        $(".navbar").removeClass("bg-dark");    
         $(".logo").removeClass("smallIcon");
-        $(".navbar h5").addClass("hidden");
+        $("nav h5").addClass("hidden");
     }
 });
