@@ -12,7 +12,7 @@ import { Footer } from './components/Footer/Footer';
 
 ReactDOM.render((
     <Router>
-        <div>
+        <div className="">
             <Nav />
             <Route exact path="/" component={App} />
             <Route path="/solutions" component={Solutions} />
@@ -30,17 +30,23 @@ $(window).on("scroll", function () {
     if ($(window).scrollTop() >= 20) {
         //add the compressed css class to anything with class navbar
         $(".navbar").addClass("compressed");
+        $(".navbar").addClass("bg-dark");    
+        $(".navbar").removeClass("top-down-gradient");    
         //add the text-dark css class to any <a> tag that is a child of something with class navbar
-        $(".navbar a").addClass("text-dark");
+        $(".navbar a").addClass("text-light");
         //add the smallIcon css class to anything with class logo
-        $(".logo").addClass("smallIcon");
+        $(".logo").removeClass("brand-icon");
+        $(".logo").addClass("brand-icon-small");
         //remove the hidden css class to any <h5> that is a child of something with class navbar
-        $(".navbar h5").removeClass("hidden");
+        $("nav h5").removeClass("hidden");
     } else {
         //else we are close to the top again so remove all these classes
         $(".navbar").removeClass("compressed");
-        $(".navbar a").removeClass("text-dark");
-        $(".logo").removeClass("smallIcon");
-        $(".navbar h5").addClass("hidden");
+        $(".navbar a").removeClass("text-light");
+        $(".navbar").removeClass("bg-dark");    
+        $(".logo").addClass("brand-icon");
+        $(".logo").removeClass("brand-icon-small");
+        $("nav h5").addClass("hidden");
+        $(".navbar").addClass("top-down-gradient"); 
     }
 });

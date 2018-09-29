@@ -7,8 +7,10 @@ export class Solutions extends Component {
     render() {
         return (
             <div >
-                <Header src={'url(./assets/plane.jpg)'} text={'Meet Our Solutions'} />
-                <div style= {{ backgroundColor: "darkGrey"}} class="jumbotron jumbotron-fluid">
+                <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', backgroundImage: 'url(./assets/plane.jpg)' }}  >
+                    <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5 text-white">Industry Defining Solutions</h1>
+                </div>
+                <div style={{ backgroundColor: "darkGrey" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1 align='center' class="display-4">Cross Check</h1>
                         <p align='center'>Compliance and Monitoring System, MiFID II, CFTC and MAR</p>
@@ -43,7 +45,7 @@ export class Solutions extends Component {
                         </div>
                     </div>
                 </div>
-                <div style= {{ backgroundColor: "darkGrey"}} class="jumbotron jumbotron-fluid">
+                <div style={{ backgroundColor: "darkGrey" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1 align='center' class="display-4">TraC</h1>
                         <p align='center'>Real-Time Trade Blotter Across All Vendors/Exchanges</p>
@@ -76,7 +78,7 @@ export class Solutions extends Component {
                         </div>
                     </div>
                 </div>
-                <div class="jumbotron jumbotron-fluid">
+                <div style={{ backgroundColor: "darkGrey" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1 align='center' class="display-4">CORE</h1>
                         <p align='center'>Care Order STP Between Clients and Brokers</p>
@@ -94,7 +96,7 @@ export class Solutions extends Component {
                         </div>
                     </div>
                 </div>
-                <div style= {{ backgroundColor: "darkGrey"}} class="jumbotron jumbotron-fluid">
+                <div style={{ backgroundColor: "darkGrey" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1 align='center' class="display-4">JetConnect</h1>
                         <p align='center'>SaaS Real-Time Trade Flow Distribution</p>

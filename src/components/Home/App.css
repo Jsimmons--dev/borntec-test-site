@@ -1,12 +1,11 @@
-.jumbotron {
-  height: 500px
+.navbar {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  transition: all 0.3s;
 }
 
-.navbar {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background: rgba(0,0,0,0);
-  transition: all 0.3s;
+.top-down-gradient {
+  background: linear-gradient(to bottom, black, rgba(0,0,0,0));
 }
 
 .navbar button {
@@ -22,14 +21,10 @@
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
-.bigIcon {
-  width:60px;
-  height: 60px;
-}
 
 .smallIcon {
-  width:30px;
-  height: 30px;
+  width: 2rem;
+  height: 2rem;
   transition: all 0.3s;
 }
 
@@ -37,3 +32,71 @@
   display: none
 }
 
+@media only screen and (max-width: 767px)  {
+  .brand-icon-small {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: all 0.3s;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .brand-icon-small {
+    width: 2rem;
+    height: 2rem;
+    transition: all 0.3s;
+  }
+}
+
+@media only screen and (max-width: 767px)  {
+  .brand-icon {
+    width: 2rem;
+    height: 2rem;
+    transition: all 0.3s;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .brand-icon {
+    width: 3rem;
+    height: 3rem;
+    transition: all 0.3s;
+  }
+}
+
+@media only screen and (max-width: 767px)  {
+  #main-tag {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #main-tag {
+    font-size: 5em;
+  }
+}
+
+
+@media only screen and (max-width: 767px)  {
+  #supporting-tag {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #supporting-tag {
+    font-size: 2.3em;
+  }
+}
+
+@media only screen and (max-width: 767px)  {
+  #main-page-header {
+    height:665px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #main-page-header {
+    height:765px;
+  }
+}
