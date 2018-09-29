@@ -76,7 +76,7 @@ export class Solutions extends Component {
                         </div>
                     </div>
                 </div>
-                <div style= {{ backgroundColor: "darkGrey"}} class="jumbotron jumbotron-fluid">
+                <div class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1 align='center' class="display-4">CORE</h1>
                         <p align='center'>Care Order STP Between Clients and Brokers</p>

@@ -15,6 +15,9 @@ class ServicesOverview extends Component {
                 <br/>
                 <br/>
                 <h1 style={{ flex: 1, color:"DodgerBlue"  }}><strong style={{color:'White'}}>Trading Technology</strong> Services</h1>
+                <br/> 
+                <p align= "center"><strong style={{color: "white"}}> An extremely popular trading tool with extensive customization capabilities. <strong style={{color: "dodgerblue"}}>Proprietary trading groups, locals</strong> and <strong style={{color: "dodgerblue"}}>hedge funds</strong> are large users of <strong style={{color: "dodgerblue"}}>X_Trader</strong>
+                </strong></p>
                 <br/>
                 <br/>
                 <br/>
