@@ -21,7 +21,7 @@ class SolutionsOverview extends Component {
                 <br/>
                 <br/>
                 <br/>  
-                <div>
+                <div align='center'>
                     <CrossCheckPreview />
                     <JetConnectPreview />
                     <TraCPreview />

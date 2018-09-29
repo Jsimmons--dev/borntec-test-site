@@ -9,17 +9,17 @@ import CorePreview from "./CorePreview/CorePreview";
 class ServicesOverview extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="container-fluid">
                 <br/>
                 <br/>
                 <br/>
                 <br/>
-                <h1 align='center' style={{ flex: 1, color:"DodgerBlue"  }}><strong style={{color:'White'}}>TRADING TECHNOLOGY</strong> SERVICES</h1>
+                <h1 align='center' style={{color:"DodgerBlue"  }}><strong style={{color:'White'}}>TRADING TECHNOLOGY</strong> SERVICES</h1>
                 <br/>
                 <br/>
                 <br/>
                 <br/>  
-                <div>
+                <div align='center'>
                     <CrossCheckPreview />
                     <JetConnectPreview />
                     <TraCPreview />

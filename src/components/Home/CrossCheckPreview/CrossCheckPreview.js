@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class CrossCheckPreview extends Component {
     render() {
         return (
-            <div align='center' className="card" style={{ margin:'10px', display:'inline'}}>
+            <div className="card" style={{width: '18rem', margin:'10px', display:'inline-block'}}>
                 <img className="card-img-top" src=".../100px180/" alt="Card image cap" />
                 <div className="card-body">
                     <h5 className="card-title" align="center">Cross Check</h5>

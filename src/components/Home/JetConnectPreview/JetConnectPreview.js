@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class JetConnectPreview extends Component {
     render() {
         return (
-            <div className="card" style={{width: '18rem', margin:'10px', display:'inline'}}>
+            <div className="card" style={{width: '18rem', margin:'10px', display:'inline-block'}}>
                 <img className="card-img-top" src=".../100px180/" alt="Card image cap" />
                 <div className="card-body">
                     <h5 className="card-title" align="center">Jet Connect</h5>
