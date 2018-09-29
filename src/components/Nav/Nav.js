@@ -11,9 +11,8 @@ export class Nav extends Component {
                 <div className="container-fluid">
                     <div className="navbar-header container-fluid">
                         <a className="navbar-brand" href="#">
-                            <img style={{ display: 'inline' }} className='brand-icon logo' alt="Brand" src="./flat_logo.png" />
+                            <img style={{ display: 'inline' }} className='brand-icon logo' alt="Brand" src="./4 black_crop.png" />
                         </a>
-                        <h5 style={{ display: 'inline', fontFamily: 'Maven Pro' }} className="header nav-link hidden text-white">BornTec</h5>
                         <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>

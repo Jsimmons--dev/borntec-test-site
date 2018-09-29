@@ -30,7 +30,6 @@ $(window).on("scroll", function () {
     if ($(window).scrollTop() >= 20) {
         //add the compressed css class to anything with class navbar
         $(".navbar").addClass("compressed");
-        $(".navbar").addClass("bg-dark");    
         $(".navbar").removeClass("top-down-gradient");    
         //add the text-dark css class to any <a> tag that is a child of something with class navbar
         $(".navbar a").addClass("text-light");
@@ -43,7 +42,6 @@ $(window).on("scroll", function () {
         //else we are close to the top again so remove all these classes
         $(".navbar").removeClass("compressed");
         $(".navbar a").removeClass("text-light");
-        $(".navbar").removeClass("bg-dark");    
         $(".logo").addClass("brand-icon");
         $(".logo").removeClass("brand-icon-small");
         $("nav h5").addClass("hidden");
