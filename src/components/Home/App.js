@@ -11,7 +11,7 @@ import ServicesOverview from './ServicesOverview';
 class App extends Component {
   render() {
     return (
-      <div style= {{ backgroundColor: "rgb(30, 30, 30)"}} className="App chris">
+      <div style= {{ backgroundColor: "rgb(30, 30, 30)"}} className="App">
         <MainPageHeader />
         <SolutionsOverview />
         <ServicesOverview />
