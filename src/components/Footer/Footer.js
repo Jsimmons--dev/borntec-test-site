@@ -4,39 +4,17 @@ import React, { Component } from 'react';
 export class Footer extends Component {
     render() {
         return (
-<<<<<<< HEAD
-            <footer class="page-footer font-small blue pt-4" style= {{ backgroundColor: "rgb(30, 30, 30)"}}>
-=======
             <footer style={{ backgroundColor: 'rgb(35,35,35)', padding: '0px' }} class="page-footer font-small pt-4">
->>>>>>> 4ab3caf145ae6b227cea303ce1aab8abdaca1eaf
 
                 <div class="container-fluid text-center text-md-left">
 
                     <div class="row">
-<<<<<<< HEAD
-
-                       
-
-=======
->>>>>>> 4ab3caf145ae6b227cea303ce1aab8abdaca1eaf
                         <hr class="clearfix w-100 d-md-none pb-3" />
 
                         <div class="col-md-3 mb-md-0 mb-3">
 
                             <ul class="list-unstyled">
                                 <li>
-<<<<<<< HEAD
-                                    <a href="#!">Solutions</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Services</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Events</a>
-                                </li>
-                                <li>
-                                    <a href="#!">News</a>
-=======
                                     <a class='text-light' href="#!"><strong>COMPANY</strong></a>
                                 </li>
                                 <li style={{ color: 'grey' }}>
@@ -47,7 +25,6 @@ export class Footer extends Component {
                                 </li>
                                 <li style={{ color: 'coral' }}>
                                     contact us
->>>>>>> 4ab3caf145ae6b227cea303ce1aab8abdaca1eaf
                                 </li>
                             </ul>
 
@@ -84,7 +61,7 @@ export class Footer extends Component {
                         </div>
                         <div class="col-md-3 mb-md-0 mb-3">
 
-                            <ul class="list-unstyled">
+                          <ul class="list-unstyled">
                                 <li>
                                     <a class='text-light' href="#!"><strong>EMAIL</strong></a>
                                 </li>
