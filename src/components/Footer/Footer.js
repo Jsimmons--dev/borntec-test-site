@@ -1,74 +1,81 @@
 import $ from 'jquery';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 
 export class Footer extends Component {
     render() {
         return (
-            <footer class="page-footer font-small blue pt-4">
+            <footer style={{ backgroundColor: 'rgb(35,35,35)', padding: '0px' }} class="page-footer font-small pt-4">
 
                 <div class="container-fluid text-center text-md-left">
 
                     <div class="row">
-
-                        <div class="col-md-6 mt-md-0 mt-3">
-
-                            <h5 class="text-uppercase">Footer Content</h5>
-                            <p>Here you can use rows and columns here to organize your footer content.</p>
-
-                        </div>
-
                         <hr class="clearfix w-100 d-md-none pb-3" />
 
                         <div class="col-md-3 mb-md-0 mb-3">
 
-                            <h5 class="text-uppercase">Links</h5>
-
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#!">Link 1</a>
+                                    <a class='text-light' href="#!"><strong>COMPANY</strong></a>
                                 </li>
-                                <li>
-                                    <a href="#!">Link 2</a>
+                                <li style={{ color: 'grey' }}>
+                                    news
                                 </li>
-                                <li>
-                                    <a href="#!">Link 3</a>
+                                <li style={{ color: 'grey' }}>
+                                    blog
                                 </li>
-                                <li>
-                                    <a href="#!">Link 4</a>
+                                <li style={{ color: 'coral' }}>
+                                    contact us
                                 </li>
                             </ul>
 
                         </div>
-
                         <div class="col-md-3 mb-md-0 mb-3">
 
-                            <h5 class="text-uppercase">Links</h5>
-
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#!">Link 1</a>
+                                    <a class='text-light' href="#!"><strong>ADDRESS</strong></a>
                                 </li>
-                                <li>
-                                    <a href="#!">Link 2</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 3</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 4</a>
-                                </li>
+                                <li style={{ color: 'grey' }}>
+                                    191 North Wacker
+    </li>
+                                <li style={{ color: 'grey' }}>
+                                    Suite 1775
+    </li>
+                                <li style={{ color: 'grey' }}>
+                                    Chicago, IL 60606
+    </li>
                             </ul>
 
                         </div>
+                        <div class="col-md-3 mb-md-0 mb-3">
 
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class='text-light' href="#!"><strong>PHONE</strong></a>
+                                </li>
+                                <li style={{ color: 'grey' }}>
+                                +1 (312) 977-0123
+</li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-3 mb-md-0 mb-3">
+
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class='text-light' href="#!"><strong>EMAIL</strong></a>
+                                </li>
+                                <li style={{ color: 'grey' }}>
+                                    sales@borntec.com
+</li>
+                            </ul>
+
+                        </div>
                     </div>
 
                 </div>
 
-                <div class="footer-copyright text-center py-3">© 2018 Copyright:
-  <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
-                </div>
+                <div class="footer-copyright text-center py-3 text-light"><strong>© 2018 Copyright BornTec</strong></div>
 
             </footer>
         );
