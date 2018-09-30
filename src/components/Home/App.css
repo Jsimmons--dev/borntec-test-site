@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(30,30,30);
+}
+
 .navbar {
   padding-top: 1em;
   padding-bottom: 1em;
