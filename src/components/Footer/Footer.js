@@ -59,6 +59,7 @@ export class Footer extends Component {
                             </ul>
 
                         </div>
+                    
                         <div class="col-md-3 mb-md-0 mb-3">
 
                           <ul class="list-unstyled">
