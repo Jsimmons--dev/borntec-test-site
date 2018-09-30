@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 export class Footer extends Component {
     render() {
         return (
-            <footer class="page-footer font-small blue pt-4">
+            <footer class="page-footer font-small blue pt-4" style= {{ backgroundColor: "rgb(30, 30, 30)"}}>
 
                 <div class="container-fluid text-center text-md-left">
 
@@ -13,8 +13,9 @@ export class Footer extends Component {
 
                         <div class="col-md-6 mt-md-0 mt-3">
 
-                            <h5 class="text-uppercase">Footer Content</h5>
-                            <p>Here you can use rows and columns here to organize your footer content.</p>
+                            <h5 style={{color: "dodgerblue"}} class="text-uppercase">Quick Connect</h5>
+                            <p style={{color: "white"}}><strong>Phone</strong></p>
+                            <p style= {{color: "white"}}>+1 (312) 977-0123</p>
 
                         </div>
 
@@ -26,16 +27,16 @@ export class Footer extends Component {
 
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#!">Link 1</a>
+                                    <a href="#!">Solutions</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 2</a>
+                                    <a href="#!">Services</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 3</a>
+                                    <a href="#!">Events</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 4</a>
+                                    <a href="#!">News</a>
                                 </li>
                             </ul>
 
