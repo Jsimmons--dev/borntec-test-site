@@ -1,13 +1,12 @@
-import $ from 'jquery';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import Header from '../Header/Header'
+import './Solutions.css'
 
 export class Solutions extends Component {
     render() {
         return (
             <div >
-                <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', backgroundImage: 'url(./assets/plane.jpg)' }}  >
+                <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/plane.jpg) no-repeat center center' }}  >
                     <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5 text-white">Industry Defining Solutions</h1>
                 </div>
                 <div style={{ backgroundColor: "darkGrey" }} class="jumbotron jumbotron-fluid">
@@ -16,7 +15,7 @@ export class Solutions extends Component {
                         <p align='center'>Compliance and Monitoring System, MiFID II, CFTC and MAR</p>
                     </div>
                     <hr />
-                    <div className={'container-fluid'} style={{ display: 'flex', justifyContent: 'space-around' }}>
+                    <div className={'container-fluid'} style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                         <div>
                             <h5>Automated Trading and DEA Management</h5>
                             <ul>
@@ -51,7 +50,7 @@ export class Solutions extends Component {
                         <p align='center'>Real-Time Trade Blotter Across All Vendors/Exchanges</p>
                     </div>
                     <hr />
-                    <div className={'container-fluid'} style={{ display: 'flex', justifyContent: 'space-around' }}>
+                    <div className={'container-fluid'} style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                         <div>
                             <h5>Cost Effective Terminals for Risk & Compliance</h5>
                             <ul>
@@ -84,7 +83,7 @@ export class Solutions extends Component {
                         <p align='center'>Care Order STP Between Clients and Brokers</p>
                     </div>
                     <hr />
-                    <div className={'container-fluid'} style={{ display: 'flex', justifyContent: 'space-around' }}>
+                    <div className={'container-fluid'} style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                         <div>
                             <h5>Client-Broker FIX Routing for Care Orders</h5>
                             <ul>
@@ -102,8 +101,7 @@ export class Solutions extends Component {
                         <p align='center'>SaaS Real-Time Trade Flow Distribution</p>
                     </div>
                     <hr />
-                    <div className={'container-fluid'} style={{ display: 'flex', justifyContent: 'space-around' }}>
-
+                    <div className={'container-fluid'} style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                         <div>
                             <h5>Flexibility</h5>
                             <ul>

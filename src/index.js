@@ -15,6 +15,7 @@ ReactDOM.render((
         <div className="">
             <Nav />
             <Route exact path="/" component={App} />
+            <Route path="/solutions" component={Solutions} />
             <Footer />
         </div>
     </Router>
