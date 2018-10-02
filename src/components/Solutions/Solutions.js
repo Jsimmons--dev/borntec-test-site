@@ -34,7 +34,7 @@ export class Solutions extends Component {
                                 <li style={{color: "White"}}>Define thresholds for clip size, limit breaches, and many more parameters</li>
                             </ul>
                         </div>
-                        <div >
+                        <div>
                             <h5 style={{color: "Coral"}}>Transaction Reporting for MiFID II</h5>
                             <ul>
                                 <li style={{color: "White"}}>Automated retrieval of customer trade records</li>
