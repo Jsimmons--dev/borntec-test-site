@@ -5,6 +5,7 @@ import $ from 'jquery';
 import App from './components/Home/App';
 import { Solutions } from './components/Solutions/Solutions'
 import { Services } from './components/Services/Services'
+import Clients from './components/Clients/Clients'
 import registerServiceWorker from './registerServiceWorker'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import { Nav } from './components/Nav/Nav'
@@ -18,6 +19,7 @@ ReactDOM.render((
             <Route exact path="/" component={App} />
             <Route path="/solutions" component={Solutions} />
             <Route path="/services" component={Services} />
+            <Route path="/clients" component={Clients} />
             <Route path="/contact" component={Contact} />
             <Footer />
         </div>
