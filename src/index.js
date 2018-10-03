@@ -9,6 +9,7 @@ import registerServiceWorker from './registerServiceWorker'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import { Nav } from './components/Nav/Nav'
 import { Footer } from './components/Footer/Footer';
+import Contact from './components/Contact/Contact'
 
 ReactDOM.render((
     <Router>
@@ -16,6 +17,8 @@ ReactDOM.render((
             <Nav />
             <Route exact path="/" component={App} />
             <Route path="/solutions" component={Solutions} />
+            <Route path="/services" component={Services} />
+            <Route path="/contact" component={Contact} />
             <Footer />
         </div>
     </Router>
