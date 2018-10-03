@@ -4,9 +4,15 @@ import './Contact.css';
 class Contact extends Component {
     render() {
         return (
+            <div>
+            <br/>
+            <br/>
+            <br/>
+            <h1 align="center" style={{color: "DodgerBlue" }}><strong style={{ color: 'White' }}>Contact</strong> Us</h1>
             <div style={{display:'flex', justifyContent:'space-around'}}>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around', flexDirection: 'column', height: "800px" }} id='contact'>
                 </div>
+            </div>
             </div>
 
         );
