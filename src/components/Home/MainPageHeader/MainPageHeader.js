@@ -9,7 +9,7 @@ class MainPageHeader extends Component {
         return (
             <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap:'wrap', 'alignContent':'center', background:'url(./assets/servers.jpg) no-repeat center center',backgroundSize:'cover' }}  >
                 <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5 text-white">Smarter Together</h1>
-                <h4 id="supporting-tag" style={{ flexBasis:'100%', marginLeft:'1.5em', marginRight:'1.5em',  textAlign:'center', color: "coral", fontFamily: 'Maven Pro' }} className="text-white">Delivering tools and technologies to keep pace in today's marketplace</h4>
+                <h4 id="supporting-tag" style={{ flexBasis:'100%', marginLeft:'1.5em', marginRight:'1.5em',  textAlign:'center', color: "coral", fontFamily: 'Maven Pro' }} className="text-white">Delivering tools and technologies to accelerate change in today's marketplace</h4>
             </div>
         );
     }
