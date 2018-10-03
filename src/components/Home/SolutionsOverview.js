@@ -17,18 +17,18 @@ class SolutionsOverview extends Component {
                 <br />
                 <br />
                 <br />
-                <h1 align="center" style={{ flex: 1, color: "OrangeRed" }}><strong style={{ color: 'white' }}>TRADING RISK MANAGEMENT</strong> SOLUTIONS</h1>
+                <h1 align="center" style={{ flex: 1, color: "Red" }}><strong style={{ color: 'white' }}>TRADING RISK MANAGEMENT</strong> SOLUTIONS</h1>
                 <br />
-                <p align="center"><strong style={{ color: "white" }}> Our software solutions encompass <strong style={{ color: "OrangeRed" }}>MiFID II compliance</strong>, including providing realtime <strong style={{ color: "OrangeRed" }}>monitoring and alerting</strong> solutions for algorithmic and DEA trading for <strong style={{ color: "OrangeRed" }}>RTS 6</strong>, transaction reporting and others </strong></p>
+                <p align="center"><strong style={{ color: "white" }}> Our software solutions encompass <strong style={{ color: "Red" }}>MiFID II compliance</strong>, including providing realtime <strong style={{ color: "Red" }}>monitoring and alerting</strong> solutions for algorithmic and DEA trading for <strong style={{ color: "Red" }}>RTS 6</strong>, transaction reporting and others </strong></p>
                 <br />
                 <br />
                 <br />
                 <br />
                 <div align='center'>
-                    <MiniProductPreview bgColor="OrangeRed" color="white" name="Cross Check" icon="fas fa-check" size="90px" desc="Compliance and Monitoring System, MiFID II, CFTC and MAR" />
-                    <MiniProductPreview bgColor="OrangeRed" color="white" name="Jet Connect" icon="fas fa-fighter-jet" size="80px" desc="SaaS Real-Time Trade Flow Distribution" />
-                    <MiniProductPreview bgColor="OrangeRed" color="white" name="TraC" icon="fas fa-cogs" size="70px" desc="Real-Time Trade Blotter Across All Vendors/Exchanges" />
-                    <MiniProductPreview bgColor="OrangeRed" color="white" name="CORE" icon="fas fa-arrow-right" desc="Care Order STP Between Clients and Brokers" />
+                    <MiniProductPreview bgColor="Red" color="white" name="Cross Check" icon="fas fa-check" size="90px" desc="Compliance and Monitoring System, MiFID II, CFTC and MAR" />
+                    <MiniProductPreview bgColor="Red" color="white" name="Jet Connect" icon="fas fa-fighter-jet" size="80px" desc="SaaS Real-Time Trade Flow Distribution" />
+                    <MiniProductPreview bgColor="Red" color="white" name="TraC" icon="fas fa-cogs" size="70px" desc="Real-Time Trade Blotter Across All Vendors/Exchanges" />
+                    <MiniProductPreview bgColor="Red" color="white" name="CORE" icon="fas fa-arrow-right" desc="Care Order STP Between Clients and Brokers" />
                 </div>
                 <br />
                 <br />
