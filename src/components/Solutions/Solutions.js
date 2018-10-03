@@ -80,7 +80,7 @@ export class Solutions extends Component {
                 </div>
                 <div style={{ backgroundColor: "rgb(30, 30, 30" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
-                        <h1 align='Left' class="display-4" style={{color:'Coral'}}>CORE</h1>
+                        <h1 align='Left' class="display-4" style={{color:'OrangeRed'}}>CORE</h1>
                         <p align='Left' style={{color:'White'}}>Care Order STP Between Clients and Brokers</p>
                     </div>
                     <hr />
