@@ -1,15 +1,13 @@
 
-import $ from 'jquery';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
-import Header from '../../Header/Header'
+import { theme } from '../../../constants'
 
 class MainPageHeader extends Component {
     render() {
         return (
-            <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap:'wrap', 'alignContent':'center', background:'url(./assets/servers.jpg) no-repeat center center',backgroundSize:'cover' }}  >
-                <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5 text-white">Smarter Together</h1>
-                <h4 id="supporting-tag" style={{ flexBasis:'100%', marginLeft:'1.5em', marginRight:'1.5em',  textAlign:'center', color: "coral", fontFamily: 'Maven Pro' }} className="text-white">Delivering tools and technologies to accelerate change in today's marketplace</h4>
+            <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/servers.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
+                <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">Smarter Together</h1>
+                <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}>Delivering tools and technologies to accelerate change in today's marketplace</h4>
             </div>
         );
     }

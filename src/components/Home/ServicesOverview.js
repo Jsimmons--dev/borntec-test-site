@@ -1,8 +1,8 @@
-import $ from 'jquery';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import MiniProductPreview from './MiniProductPreview'
 import SVGProductPreview from './SVGProductPreview'
+import { theme } from '../../constants'
+import { Link } from 'react-router-dom';
 
 class ServicesOverview extends Component {
     render() {
@@ -12,19 +12,28 @@ class ServicesOverview extends Component {
                 <br />
                 <br />
                 <br />
-                <h1 align="center" style={{ flex: 1, color: "DodgerBlue" }}><strong style={{ color: 'White' }}>GLOBAL INFRASTRUCTURE</strong> SERVICES</h1>
+                <h3 align="center" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>GLOBAL INFRASTRUCTURE</strong> SERVICES</h3>
                 <br />
-                <p align="center"><strong style={{ color: "white" }}> An extremely popular trading tool with extensive customization capabilities. <strong style={{ color: "dodgerblue" }}>Proprietary trading groups, locals</strong> and <strong style={{ color: "dodgerblue" }}>hedge funds</strong> are large users of <strong style={{ color: "dodgerblue" }}>X_Trader</strong>
+                <p align="center"><strong> An extremely popular trading tool with extensive customization capabilities. <strong style={{ color: theme.primaryColor2 }}>Proprietary trading groups, locals</strong> and <strong style={{ color: theme.primaryColor2 }}>hedge funds</strong> are large users of <strong style={{ color: theme.primaryColor2 }}>X_Trader</strong>
                 </strong></p>
                 <br />
                 <br />
                 <br />
                 <br />
-                <div align='center'>
-                    <SVGProductPreview bgColor="dodgerblue" color="white" name="Hosting" icon="./assets/hosting.svg" size="80px" />                                  
-                    <MiniProductPreview bgColor="dodgerblue" name="Low Latency Infrastructure" icon="far fa-clock" />
-                    <SVGProductPreview bgColor="dodgerblue" name="Direct Market Access" icon="./assets/direct-market-access.svg" />
-                    <MiniProductPreview bgColor="dodgerblue" name="Microwave Connectivity" icon="fas fa-wifi" size="80px" />
+                <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }} align='center'>
+                    <Link style={{ color: theme.textColor }} to='/services/#'>
+                        <MiniProductPreview bgColor={theme.primaryColor2} name="Low Latency Infrastructure" icon="icon-hosting" size="80px" />
+                    </Link>
+                    <Link style={{ color: theme.textColor }} to='/services/#'>
+                        <MiniProductPreview bgColor={theme.primaryColor2} name="Low Latency Infrastructure" icon="far fa-clock" />
+                    </Link>
+                    <Link style={{ color: theme.textColor }} to='/services/#'>
+                        <MiniProductPreview bgColor={theme.primaryColor2} name="Direct Market Access" icon="icon-direct-market-access" size="80px" />
+                    </Link>
+                    <Link style={{ color: theme.textColor }} to='/services/#'>
+                        <MiniProductPreview bgColor={theme.primaryColor2} name="Microwave Connectivity" icon="fas fa-wifi" size="80px" />
+                    </Link>
+
                 </div>
                 <br />
                 <br />
