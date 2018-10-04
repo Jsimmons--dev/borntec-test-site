@@ -12,13 +12,13 @@ export class Solutions extends Component {
                 </div>
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
-                        <h1 align='Left' class="display-4" style={{color:"Red"}}>Cross Check</h1>
+                        <h1 align='Left' class="display-4" style={{color:"dodgerblue"}}>Cross Check</h1>
                         <p align='Left' style={{color:"white"}}>Compliance and Monitoring System, MiFID II, CFTC and MAR</p>
                     </div>
                     <hr />
                     <div className={'container-fluid'} style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                         <div>
-                            <h5 style={{color: "Red"}}>Automated Trading and DEA Management</h5>
+                            <h5 style={{color: "dodgerblue"}}>Automated Trading and DEA Management</h5>
                             <ul>
                                 <li style={{color: "White"}}>Monitor messaging velocity in realtime</li>
                                 <li style={{color: "White"}}>Visualize by exchange, trade session, user, algo ID & more</li>
@@ -27,7 +27,7 @@ export class Solutions extends Component {
                             </ul>
                         </div>
                         <div>
-                            <h5 style={{color: "Red"}}>Position Monitoring and Alerting</h5>
+                            <h5 style={{color: "dodgerblue"}}>Position Monitoring and Alerting</h5>
                             <ul>
                                 <li style={{color: "White"}}>Aggregate working orders and filled positions from all trading systems and exchanges in realtime</li>
                                 <li style={{color: "White"}}>Group blocks of accounts into custom risk groups</li>
@@ -35,7 +35,7 @@ export class Solutions extends Component {
                             </ul>
                         </div>
                         <div>
-                            <h5 style={{color: "Red"}}>Transaction Reporting for MiFID II</h5>
+                            <h5 style={{color: "dodgerblue"}}>Transaction Reporting for MiFID II</h5>
                             <ul>
                                 <li style={{color: "White"}}>Automated retrieval of customer trade records</li>
                                 <li style={{color: "White"}}>Data enrichment and formatting</li>
@@ -80,13 +80,13 @@ export class Solutions extends Component {
                 </div>
                 <div style={{ backgroundColor: "rgb(30, 30, 30" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
-                        <h1 align='Left' class="display-4" style={{color:'Red'}}>CORE</h1>
+                        <h1 align='Left' class="display-4" style={{color:'dodgerblue'}}>CORE</h1>
                         <p align='Left' style={{color:'White'}}>Care Order STP Between Clients and Brokers</p>
                     </div>
                     <hr />
                     <div className={'container-fluid'} style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                         <div>
-                            <h5 style={{color:'Red'}}>Client-Broker FIX Routing for Care Orders</h5>
+                            <h5 style={{color:'dodgerblue'}}>Client-Broker FIX Routing for Care Orders</h5>
                             <ul>
                                 <li style={{color: "White"}}>SaaS deployment</li>
                                 <li style={{color: "White"}}> Full STP for clients</li>

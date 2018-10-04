@@ -23,7 +23,7 @@ export class Footer extends Component {
                                 <li style={{ color: 'grey' }}>
                                     blog
                                 </li>
-                                <li style={{ color: 'Red' }}>
+                                <li style={{ color: 'dodgerblue' }}>
                                     contact us
                                 </li>
                             </ul>

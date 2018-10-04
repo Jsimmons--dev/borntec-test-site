@@ -21,8 +21,8 @@ export class Nav extends Component {
                         <ul class="navbar-nav ml-auto list-inline">
                             <Link to='/' className='nav-link text-white'>Home</Link>
                             <Link to='/solutions' className='nav-link nav-box text-white list-inline-item'>Our Solutions</Link>
-                            <Link to='/services' className='nav-link text-white list-inline-item'>Our Services</Link>
-                            <Link to='/clients' className='nav-link text-white list-inline-item'>Our Clients</Link>
+                            <Link to='/services' className='nav-link text-white list-inline-item'>Colocation</Link>
+                            <Link to='/clients' className='nav-link text-white list-inline-item'>Client Services</Link>
                             <Link to='/contact' className='nav-link text-white list-inline-item'>Contact Us</Link>
                         </ul>
                     </div>
