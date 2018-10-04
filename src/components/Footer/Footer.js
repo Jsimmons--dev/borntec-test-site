@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import React, { Component } from 'react';
+import { primaryColor1 } from '../../constants';
 
 export class Footer extends Component {
     render() {
@@ -23,7 +24,7 @@ export class Footer extends Component {
                                 <li style={{ color: 'grey' }}>
                                     blog
                                 </li>
-                                <li style={{ color: 'Red' }}>
+                                <li style={{color: primaryColor1}}>
                                     contact us
                                 </li>
                             </ul>
