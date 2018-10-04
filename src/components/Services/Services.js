@@ -19,21 +19,12 @@ export class Services extends Component {
                 <h1>FlightControl Suite</h1>
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
-<<<<<<< HEAD
-                        <h1 class="display-4" style={{color:'White'}}>Managed Hosting <strong style={{color: "dodgerblue"}}>Services</strong></h1>
-                        <h5 style={{color: 'dodgerblue'}}>Trading Technologies</h5>
-                        <p class="lead" style={{color:"white"}}>An extremely popular trading tool with extensive customization capabilities. Proprietary trading groups, locals and hedge funds are large users of X_Trader.
-                        </p>
-                        <h5 style={{color: "dodgerblue"}}>Itiviti</h5>
-                           <p style={{color: "white"}}>Born Technology is a global partner with Itiviti Software, delivering fully hosted and managed solutions for Itiviti and Cameron FIX.</p>
-=======
                         <h1 class="display-4">Managed Hosting <strong style={{ color: theme.primaryColor1 }}>Services</strong></h1>
                         <h5 style={{ color: theme.primaryColor1 }}>Trading Technologies</h5>
                         <p class="lead">An extremely popular trading tool with extensive customization capabilities. Proprietary trading groups, locals and hedge funds are large users of X_Trader.
                         </p>
                         <h5 style={{ color: theme.primaryColor1 }}>Itiviti</h5>
                         <p>Born Technology is a global partner with Itiviti Software, delivering fully hosted and managed solutions for Itiviti and Cameron FIX.</p>
->>>>>>> b72361d8ac48e485f4e752acd2973de729a4d57f
                     </div>
                 </div>
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
@@ -53,17 +44,6 @@ export class Services extends Component {
                 </div>
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
-<<<<<<< HEAD
-                        <h1 class="display-4" style={{color:'white'}}>Low Latency <strong style={{color: "dodgerblue"}}>Trading</strong></h1>
-                        <h5 style={{color: "dodgerblue"}}>State of the Art Architecture</h5>
-                        <p class="lead" style={{color: "white"}}>Born Technology ensures the fastest execution into the world’s exchanges through our unique architecture that reduces latencies and provides our clients the most direct route to the respective exchange matching engine.</p>
-                        <h5 style={{color: "dodgerblue"}}>Ultra Low-latency Infrastructure</h5>
-                        <p class="lead" style={{color: "white"}}>Born’s state of the art ultra low-latency infrastructure currently provides direct market access to dozens futures, fixed income and FX exchanges in North America, South America, and Europe</p>
-                        <h5 style={{color: "dodgerblue"}}>Network Infrastructure</h5>
-                        <p class="lead" style={{color: "white"}}>In addition to providing custom fiber pathways and other unique transit systems, Born is a global partner with a leading telco providers. Born provides the lowest latency connections between our data centers and exchanges.</p>
-                        <h5 style={{color: "dodgerblue"}}>Microwave Telecommunication Services</h5>
-                        <p class="lead" style={{color: "white"}}>Born offers the lowest latency data transmission using state-of-the-art RF technologies.</p>
-=======
                         <h1 class="display-4" style={{ color: theme.textColor }}>Low Latency <strong style={{ color: theme.primaryColor1 }}>Trading</strong></h1>
                         <h5 style={{ color: theme.primaryColor1 }}>State of the Art Architecture</h5>
                         <p class="lead">Born Technology ensures the fastest execution into the world’s exchanges through our unique architecture that reduces latencies and provides our clients the most direct route to the respective exchange matching engine.</p>
@@ -73,7 +53,6 @@ export class Services extends Component {
                         <p class="lead">In addition to providing custom fiber pathways and other unique transit systems, Born is a global partner with a leading telco providers. Born provides the lowest latency connections between our data centers and exchanges.</p>
                         <h5 style={{ color: theme.primaryColor1 }}>Microwave Telecommunication Services</h5>
                         <p class="lead">Born offers the lowest latency data transmission using state-of-the-art RF technologies.</p>
->>>>>>> b72361d8ac48e485f4e752acd2973de729a4d57f
                     </div>
                 </div>
             </div >
