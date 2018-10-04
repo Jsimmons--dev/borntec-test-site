@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import $ from 'jquery';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './components/Home/App';
 import { Solutions } from './components/Solutions/Solutions'
 import { Services } from './components/Services/Services'
@@ -11,11 +12,11 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import { Nav } from './components/Nav/Nav'
 import { Footer } from './components/Footer/Footer';
 import Contact from './components/Contact/Contact'
-import { primaryColor2 } from './constants';
+import { theme } from './constants';
 
 ReactDOM.render((
     <Router>
-        <div className="">
+        <div style={{ color: theme.textColor }} className="">
             <Nav />
             <Route exact path="/" component={App} />
             <Route path="/solutions" component={Solutions} />
@@ -35,8 +36,8 @@ $(window).on("scroll", function () {
     if ($(window).scrollTop() >= 20) {
         //add the compressed css class to anything with class navbar
         $(".navbar").addClass("compressed");
-        $(".navbar").css("background-color", primaryColor2);
-        $(".navbar").removeClass("top-down-gradient");    
+        $(".navbar").css("background-color", theme.primaryColor2);
+        $(".navbar").removeClass("top-down-gradient");
         //add the text-dark css class to any <a> tag that is a child of something with class navbar
         $(".navbar a").addClass("text-light");
         //add the smallIcon css class to anything with class logo
@@ -47,12 +48,11 @@ $(window).on("scroll", function () {
     } else {
         //else we are close to the top again so remove all these classes
         $(".navbar").removeClass("compressed");
-        $(".navbar").addClass("primary-color-2-bg");
         $(".navbar").css("background-color", '');
         $(".navbar a").removeClass("text-light");
         $(".logo").addClass("brand-icon");
         $(".logo").removeClass("brand-icon-small");
         $("nav h5").addClass("hidden");
-        $(".navbar").addClass("top-down-gradient"); 
+        $(".navbar").addClass("top-down-gradient");
     }
 });

@@ -1,2 +1,14 @@
-export let primaryColor1 = 'springGreen'
-export let primaryColor2 = 'dodgerBlue'
+let light = {
+    primaryColor1: 'springGreen',
+    primaryColor2: 'dodgerBlue',
+    textColor: 'black'
+}
+
+let dark = {
+    primaryColor1: 'springGreen',
+    primaryColor2: 'dodgerBlue',
+    textColor: 'white'
+}
+
+export let theme = dark
+
