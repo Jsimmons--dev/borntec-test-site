@@ -5,15 +5,20 @@ import { theme } from '../../constants'
 
 
 export class Solutions extends Component {
+
+    componentDidMount() {
+        if (this.props.location && this.props.location.hash)
+            document.querySelector(this.props.location.hash).scrollIntoView()
+    }
+
     render() {
-        console.log(theme)
         return (
             <div >
                 <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/plane.jpg) no-repeat center center' }}  >
                     <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">MEET OUR SOLUTIONS</h1>
                 </div>
                 <div className='container'>
-                    <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
+                    <div id='crosscheck' style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
                         <div align='center' class="container">
                             <h1 class="display-4" style={{ color: theme.primaryColor1 }}>Cross Check</h1>
                             <p>Compliance and Monitoring System, MiFID II, CFTC and MAR</p>
@@ -50,7 +55,7 @@ export class Solutions extends Component {
                             </div>
                         </div>
                     </div>
-                    <div style={{ backgroundColor: "rgb(30, 30, 30" }} class="jumbotron jumbotron-fluid">
+                    <div id='trac' style={{ backgroundColor: "rgb(30, 30, 30" }} class="jumbotron jumbotron-fluid">
                         <div align='center' class="container">
                             <h1 class="display-4" style={{ color: theme.primaryColor2 }}>TraC</h1>
                             <p>Real-Time Trade Blotter Across All Vendors/Exchanges</p>
@@ -85,7 +90,7 @@ export class Solutions extends Component {
                             </div>
                         </div>
                     </div>
-                    <div style={{ backgroundColor: "rgb(30, 30, 30" }} class="jumbotron jumbotron-fluid">
+                    <div id='core' style={{ backgroundColor: "rgb(30, 30, 30" }} class="jumbotron jumbotron-fluid">
                         <div align='center' class="container">
                             <h1 class="display-4" style={{ color: theme.primaryColor1 }}>CORE</h1>
                             <p>Care Order STP Between Clients and Brokers</p>
@@ -105,7 +110,7 @@ export class Solutions extends Component {
                             </div>
                         </div>
                     </div>
-                    <div style={{ backgroundColor: "rgb(30, 30, 30" }} class="jumbotron jumbotron-fluid">
+                    <div id='jetconnect' style={{ backgroundColor: "rgb(30, 30, 30" }} class="jumbotron jumbotron-fluid">
                         <div align='center' class="container">
                             <h1 class="display-4" style={{ color: theme.primaryColor2 }}>JetConnect</h1>
                             <p>SaaS Real-Time Trade Flow Distribution</p>
