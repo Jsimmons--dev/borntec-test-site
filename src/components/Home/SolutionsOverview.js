@@ -11,7 +11,7 @@ class SolutionsOverview extends Component {
                 <br />
                 <br />
                 <br />
-                <h1 align="center" style={{ color: theme.primaryColor1, flex: 1 }}><strong >TRADING RISK MANAGEMENT</strong> SOLUTIONS</h1>
+                <h1 align="center" style={{ color: theme.primaryColor1, flex: 1 }}><strong style={{ color: theme.textColor }} >TRADING RISK MANAGEMENT</strong> SOLUTIONS</h1>
                 <br />
                 <p align="center"><strong > Our software solutions encompass <strong style={{ color: theme.primaryColor1 }}>MiFID II compliance</strong>, including providing realtime <strong style={{ color: theme.primaryColor1 }}>monitoring and alerting</strong> solutions for algorithmic and DEA trading for <strong style={{ color: theme.primaryColor1 }}>RTS 6</strong>, transaction reporting and others </strong></p>
                 <br />

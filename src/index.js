@@ -13,18 +13,21 @@ import { Nav } from './components/Nav/Nav'
 import { Footer } from './components/Footer/Footer';
 import Contact from './components/Contact/Contact'
 import { theme } from './constants';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 ReactDOM.render((
-    <Router>
-        <div style={{ color: theme.textColor }} className="">
-            <Nav />
-            <Route exact path="/" component={App} />
-            <Route path="/solutions" component={Solutions} />
-            <Route path="/services" component={Services} />
-            <Route path="/clients" component={Clients} />
-            <Route path="/contact" component={Contact} />
-            <Footer />
-        </div>
+    <Router onUpdate={() => window.scrollTo(0, 0)} >
+        <ScrollToTop>
+            <div style={{ color: theme.textColor }} className="">
+                <Nav />
+                <Route exact path="/" component={App} />
+                <Route path="/solutions" component={Solutions} />
+                <Route path="/services" component={Services} />
+                <Route path="/clients" component={Clients} />
+                <Route path="/contact" component={Contact} />
+                <Footer />
+            </div>
+        </ScrollToTop>
     </Router>
 ), document.getElementById('root'));
 registerServiceWorker();

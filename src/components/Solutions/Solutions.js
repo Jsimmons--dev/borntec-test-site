@@ -7,7 +7,7 @@ import { theme } from '../../constants'
 export class Solutions extends Component {
 
     componentDidMount() {
-        if (this.props.location && this.props.location.hash)
+        if (this.props.location && this.props.location.hash !== "")
             document.querySelector(this.props.location.hash).scrollIntoView()
     }
 
