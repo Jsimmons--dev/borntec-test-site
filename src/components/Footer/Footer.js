@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import React, { Component } from 'react';
 import { theme } from '../../constants';
+import { Link } from 'react-router-dom';
 
 export class Footer extends Component {
     render() {
@@ -24,9 +25,12 @@ export class Footer extends Component {
                                 <li style={{ color: 'grey' }}>
                                     blog
                                 </li>
-                                <li style={{color: theme.primaryColor1}}>
-                                    contact us
+                                <Link to='/contact'>
+                                    <li style={{ color: theme.primaryColor1 }}>
+                                        contact us
                                 </li>
+                                </Link>
+
                             </ul>
 
                         </div>
@@ -55,15 +59,15 @@ export class Footer extends Component {
                                     <a class='text-light' href="#!"><strong>PHONE</strong></a>
                                 </li>
                                 <li style={{ color: 'grey' }}>
-                                +1 (312) 977-0123
+                                    +1 (312) 977-0123
 </li>
                             </ul>
 
                         </div>
-                    
+
                         <div class="col-md-3 mb-md-0 mb-3">
 
-                          <ul class="list-unstyled">
+                            <ul class="list-unstyled">
                                 <li>
                                     <a class='text-light' href="#!"><strong>EMAIL</strong></a>
                                 </li>

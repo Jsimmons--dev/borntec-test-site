@@ -8,7 +8,7 @@ import { Solutions } from './components/Solutions/Solutions'
 import { Services } from './components/Services/Services'
 import Clients from './components/Clients/Clients'
 import registerServiceWorker from './registerServiceWorker'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Route, Link } from 'react-router-dom'
 import { Nav } from './components/Nav/Nav'
 import { Footer } from './components/Footer/Footer';
 import Contact from './components/Contact/Contact'
@@ -21,10 +21,10 @@ ReactDOM.render((
             <div style={{ color: theme.textColor }} className="">
                 <Nav />
                 <Route exact path="/" component={App} />
-                <Route path="/solutions" component={Solutions} />
-                <Route path="/services" component={Services} />
-                <Route path="/clients" component={Clients} />
-                <Route path="/contact" component={Contact} />
+                <Route exaxt path="/solutions" component={Solutions} />
+                <Route exact path="/services" component={Services} />
+                <Route exact path="/clients" component={Clients} />
+                <Route exact path="/contact" component={Contact} />
                 <Footer />
             </div>
         </ScrollToTop>
