@@ -18,7 +18,7 @@ class SolutionsOverview extends Component {
                 <br />
                 <br />
                 <br />
-                <div align='center'>
+                <div align='center' style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
                     <Link style={{ color: theme.textColor }} to='/solutions/#crosscheck'>
                         <MiniProductPreview bgColor={theme.primaryColor1} name="Cross Check" icon="fas fa-check" size="90px" desc="Compliance and Monitoring System, MiFID II, CFTC and MAR" />
                     </Link>
