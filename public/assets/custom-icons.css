@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?wnw7i5');
-  src:  url('fonts/icomoon.eot?wnw7i5#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?wnw7i5') format('truetype'),
-    url('fonts/icomoon.woff?wnw7i5') format('woff'),
-    url('fonts/icomoon.svg?wnw7i5#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?z0cpcg');
+  src:  url('fonts/icomoon.eot?z0cpcg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z0cpcg') format('truetype'),
+    url('fonts/icomoon.woff?z0cpcg') format('woff'),
+    url('fonts/icomoon.svg?z0cpcg#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,11 +24,59 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-direct-market-access:before {
+.icon-tradingallocation:before {
   content: "\e900";
-  color: #fff;
+}
+.icon-tradersupportservices:before {
+  content: "\e901";
+}
+.icon-reduceinfrastructurecosts:before {
+  content: "\e902";
+}
+.icon-optimizedglobalfootprint:before {
+  content: "\e903";
+}
+.icon-noncompetition:before {
+  content: "\e904";
+}
+.icon-noncompcancel:before {
+  content: "\e905";
+}
+.icon-networkinsfrastructure:before {
+  content: "\e906";
+}
+.icon-lowlatencytrading:before {
+  content: "\e907";
 }
 .icon-hosting:before {
-  content: "\e901";
+  content: "\e908";
   color: #fff;
+}
+.icon-group:before {
+  content: "\e909";
+}
+.icon-globalcolocation:before {
+  content: "\e90a";
+}
+.icon-fixconnectivity:before {
+  content: "\e90b";
+}
+.icon-direct-market-access:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-customizedsolutions:before {
+  content: "\e90d";
+}
+.icon-colocation:before {
+  content: "\e90e";
+}
+.icon-automatedtrading:before {
+  content: "\e90f";
+}
+.icon-arrow-right-solid:before {
+  content: "\e910";
+}
+.icon-algorithmdevelopmentservices:before {
+  content: "\e911";
 }

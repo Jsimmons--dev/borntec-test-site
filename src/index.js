@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './components/Home/App';
 import { Solutions } from './components/Solutions/Solutions'
 import { Services } from './components/Services/Services'
+import NewsArticle from './components/NewsArticle/NewsArticle'
 import Clients from './components/Clients/Clients'
 import registerServiceWorker from './registerServiceWorker'
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
@@ -15,16 +16,18 @@ import Contact from './components/Contact/Contact'
 import { theme } from './constants';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
+
 ReactDOM.render((
     <Router onUpdate={() => window.scrollTo(0, 0)} >
         <ScrollToTop>
             <div style={{ color: theme.textColor }} className="">
                 <Nav />
-                <Route exact path="/" component={App} />
+                <Route exact path="/" render={(props) => <App {...props} isAuthed={true} />} />
                 <Route exaxt path="/solutions" component={Solutions} />
                 <Route exact path="/services" component={Services} />
                 <Route exact path="/clients" component={Clients} />
                 <Route exact path="/contact" component={Contact} />
+                <Route exact path="/article/:id" component={NewsArticle} />
                 <Footer />
             </div>
         </ScrollToTop>
