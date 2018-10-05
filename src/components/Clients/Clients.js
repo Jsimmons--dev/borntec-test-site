@@ -23,8 +23,7 @@ class Clients extends Component {
                 </div>
 
 
-
-                <div class="container" style={{ color: theme.textColor }}>
+                <div class="container">
                     <h1 class="display-4" style={{ color: theme.primaryColor1 }}>Banks, FCM’s, & Broker Dealers</h1>
                     <IconHeader icon="icon-reduceinfrastructurecosts" color={theme.primaryColor1} text="Reduced Infrastructure Costs" />
                     <p class="lead">Born allows banking institutions the ability to provide a diverse offering of front end trading platforms without the cost associated with each respective infrastructure requirements.</p>
@@ -40,7 +39,7 @@ class Clients extends Component {
 
                 <div>
 
-                    
+
                 </div>
             </div>
         );
