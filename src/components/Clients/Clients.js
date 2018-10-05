@@ -6,8 +6,13 @@ class Clients extends Component {
     render() {
         return (
             <div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <div class="container" style={{ color: theme.textColor }}>
-                    <h1 class="display-4" style={{ color: theme.primaryColor2 }}><strong>Hedge Funds/</strong> CTAs</h1>
+                    <h1 class="display-4" style={{ color: "white"}}><strong>Hedge Funds</strong><strong style={{color:'DodgerBlue'}}> & CTAs</strong></h1>
                     <IconHeader icon="icon-fixconnectivity" color={theme.primaryColor2} text="FIX Connectivity" />
                     <p class="lead">Providing customized FIX connectivity is one of Born Technolgy’s core strengths. Virtually all large trading groups utilize their own variation of FIX, making custom integration capabilities a must.</p>
                     <IconHeader icon="icon-automatedtrading" color={theme.primaryColor2} text="Automated Trading" />
@@ -27,16 +32,16 @@ class Clients extends Component {
 
 
                 <div class="container">
-                    <h1 class="display-4" style={{ color: theme.primaryColor1 }}>Banks, FCM’s, & Broker Dealers</h1>
+                    <h1 class="display-4" style={{ color: 'white'}}>Banks, FCM’s, <strong style={{color:'dodgerblue'}}>& Broker Dealers</strong></h1>
                     <IconHeader icon="icon-reduceinfrastructurecosts" color={theme.primaryColor1} text="Reduced Infrastructure Costs" />
                     <p class="lead">Born allows banking institutions the ability to provide a diverse offering of front end trading platforms without the cost associated with each respective infrastructure requirements.</p>
-                    <h5 style={{ color: theme.primaryColor1 }}>Optimized Global Footprint</h5>
+                    <IconHeader icon="icon-optimizedglobalfootprint" color={theme.primaryColor2} text="Optimized Global Footprint" />
                     <p class="lead">Customers leverage Born’s extensive data center infrastructure for co-location and low latency trading needs, as well as increased reliability and uptime.</p>
-                    <h5 style={{ color: theme.primaryColor1 }}>Synergistic Relationship</h5>
+                    <IconHeader icon="icon-optimizedglobalfootprint" color={theme.primaryColor2} text="Synergistic Relationship" />
                     <p class="lead">Born’s philosophy is to work with internal IT staff, not replace them. We believe creating a synergistic relationship with internal IT groups provides the best technology infrastructures for the bank and its clients.</p>
-                    <h5 style={{ color: theme.primaryColor1 }}>Trader Support Services</h5>
+                    <IconHeader icon="icon-tradersupportservices" color={theme.primaryColor2} text="Trader Support Service" />
                     <p class="lead">Born’s client services teams, operating in Chicago provide 24*7 support coverage for functional and technical services.</p>
-                    <h5 style={{ color: theme.primaryColor1 }}>Customized Solutions</h5>
+                    <IconHeader icon="icon-customizedsolutions" color={theme.primaryColor2} text="Customized Solutions" />
                     <p class="lead">Delivered on time and under budget, Born has the expertise and relationships necessary to deliver complex solutions rapidly and cost-effectively.</p>
                 </div>
                 <br/>
@@ -44,18 +49,18 @@ class Clients extends Component {
                 <br/>
 
                 <div class='container'>
-                    <h1 class='display-4' style={{ color: theme.primaryColor1 }}>Proprietary Trading Groups</h1>
+                    <h1 class='display-4' style={{ color: 'white' }}>Proprietary Trading <strong style={{color:'dodgerblue'}}>Groups</strong></h1>
                     <IconHeader icon="icon-lowlatencytrading" color={theme.primaryColor1} text="Low Latency Trading" />
                     <p class='lead'>Born’s state of the art ultra low latency infrastructure currently provides direct market access to dozens of futures, fixed income and FX exchanges in North America, South America, Europe and Asia</p>
                     <IconHeader icon="icon-globalcolocation" color={theme.primaryColor1} text="Global Colocation" />
                     <p class='lead'>Over the past decade Born has invested significant resources to build out co-location facilities with the closest proximity to any given exchange matching engine, in most cases located in the same building as the exchange matching engine. Born currently has co-location facilities for the major exchanges in North America, South America, Europe and Asia.</p>
                     <IconHeader icon="icon-microwaveconnectivity" color={theme.primaryColor1} text="Microwave Connectivity" />
                     <p class='lead'>Born’s exclusive microwave connection to the CME data center in Aurora uses state-of-the-art RF technology to provide the industry with the lowest possible latency.</p>
-                    <IconHeader icon="icon-networkinfrastructure" color={theme.primaryColor1} text="Network Infrastructure" />
+                    <IconHeader icon="icon-networkinsfrastructure" color={theme.primaryColor1} text="Network Infrastructure" />
                     <p class='lead'>Born is a global partner with the leading data transport / telecommunication provider. Born provides the lowest latency connection between data centers and exchanges.</p>
                     <IconHeader icon="icon-hosting" color={theme.primaryColor1} text="Server Hosting" />
                     <p class='lead'>Born server hosting services allow proprietary trading groups to utilize our infrastructure and reduce cost and maintenance associated with data center contractual agreements.</p>
-                    <IconHeader icon="noncompetition" color={theme.primaryColor1} text="Non-Competition" />
+                    <IconHeader icon="icon-noncompetition" color={theme.primaryColor1} text="Non-Competition" />
                     <p class='lead'>Born Technology does NOT trade and is not in competition with our trading customers.</p>
 
 
