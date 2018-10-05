@@ -4,6 +4,11 @@ import { theme } from '../../constants'
 import { Link } from 'react-router-dom';
 
 class SolutionsOverview extends Component {
+
+    componentDidMount() {
+    }
+
+
     render() {
         return (
             <div className="container-fluid">
