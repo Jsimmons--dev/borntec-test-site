@@ -16,7 +16,7 @@ export class Services extends Component {
     render() {
         return (
             <div >
-                <h1>FlightControl Suite</h1>
+                <h1>Meet our Flight Control Suite Solutions</h1>
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1 class="display-4">Managed Hosting <strong style={{ color: theme.primaryColor1 }}>Services</strong></h1>
