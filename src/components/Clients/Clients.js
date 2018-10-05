@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { theme } from '../../constants'
+import IconHeader from '../IconHeader/IconHeader'
 
 class Clients extends Component {
     render() {
@@ -7,9 +8,9 @@ class Clients extends Component {
             <div>
                 <div class="container" style={{ color: theme.textColor }}>
                     <h1 class="display-4" style={{ color: theme.primaryColor2 }}><strong>Hedge Funds/</strong> CTAs</h1>
-                    <h5 style={{ color: theme.primaryColor2 }}>	FIX Connectivity</h5>
+                    <IconHeader icon="icon-fixconnectivity" color={theme.primaryColor2} text="FIX Connectivity" />
                     <p class="lead">Providing customized FIX connectivity is one of Born Technolgy’s core strengths. Virtually all large trading groups utilize their own variation of FIX, making custom integration capabilities a must.</p>
-                    <h5 style={{ color: theme.primaryColor2 }}>	Automated Trading</h5>
+                    <IconHeader icon="icon-automatedtrading" color={theme.primaryColor2} text="Automated Trading" />
                     <p class="lead">Born Technology offers flexible API connectivity via Trading Technologies and other systems to numerous electronic futures exchanges.</p>
                     <h5 style={{ color: theme.primaryColor2 }}>	Algorithm Development Services</h5>
                     <p class="lead">Born offers complete algorithm development services. With many years of experience designing algorithms for the top hedge funds and institutions, our team focuses on both algorithmic execution and arbitrage based algorithms.</p>
@@ -25,7 +26,7 @@ class Clients extends Component {
 
                 <div class="container" style={{ color: theme.textColor }}>
                     <h1 class="display-4" style={{ color: theme.primaryColor1 }}>Banks, FCM’s, & Broker Dealers</h1>
-                    <h5 style={{ color: theme.primaryColor1 }}>Reduced Infrastructure Costs</h5>
+                    <IconHeader icon="icon-reduceinfrastructurecosts" color={theme.primaryColor1} text="Reduced Infrastructure Costs" />
                     <p class="lead">Born allows banking institutions the ability to provide a diverse offering of front end trading platforms without the cost associated with each respective infrastructure requirements.</p>
                     <h5 style={{ color: theme.primaryColor1 }}>Optimized Global Footprint</h5>
                     <p class="lead">Customers leverage Born’s extensive data center infrastructure for co-location and low latency trading needs, as well as increased reliability and uptime.</p>
@@ -35,7 +36,11 @@ class Clients extends Component {
                     <p class="lead">Born’s client services teams, operating in Chicago provide 24*7 support coverage for functional and technical services.</p>
                     <h5 style={{ color: theme.primaryColor1 }}>Customized Solutions</h5>
                     <p class="lead">Delivered on time and under budget, Born has the expertise and relationships necessary to deliver complex solutions rapidly and cost-effectively.</p>
+                </div>
 
+                <div>
+
+                    
                 </div>
             </div>
         );
