@@ -27,7 +27,7 @@ class NewsFeed extends Component {
                 <h1 align='center' style={{color:'white'}}> STAY <strong style={{color:'dodgerblue'}}>UP TO DATE</strong> WITH RECENT <strong style={{color:'dodgerblue'}}>NEWS</strong></h1>
                 <br/>
                 <br/>
-                <ul style={{color:'white'}}>
+                <ul>
                     {posts}
                 </ul>
             </div >
