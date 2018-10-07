@@ -16,9 +16,9 @@ export class Services extends Component {
     render() {
         return (
             <div>
-                <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/servers.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
+                <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/girlserver.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
                 <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">COLOCATION</h1>
-                <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}>Explore how <strong style={{color:'dodgerblue'}}>BornTec</strong> can help you <strong style={{color:'dodgerblue'}}>accelerate</strong> in todays rapidly <strong style={{color:'dodgerblue'}}>changing world</strong></h4>
+                <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}>Explore how <strong style={{color:'dodgerblue'}}>BornTec</strong> can help you accelerate in todays rapidly <strong style={{color:'dodgerblue'}}>changing world</strong></h4>
             </div>
             <br/>
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">

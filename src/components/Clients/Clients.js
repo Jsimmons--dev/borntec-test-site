@@ -6,7 +6,7 @@ class Clients extends Component {
     render() {
         return (
             <div >
-                <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/servers.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
+                <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/clients.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
                 <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">CLIENT SERVICES</h1>
                 <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}>Explore how you will <strong style={{color:'dodgerblue'}}>advance</strong> from the services <strong style={{color:'dodgerblue'}}>BornTec</strong> offers our clients</h4>
             </div>
