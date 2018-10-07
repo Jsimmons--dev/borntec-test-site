@@ -16,11 +16,11 @@ export class Services extends Component {
     render() {
         return (
             <div>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <h1 align='center'>Meet our Flight Control Suite Solutions</h1>
+                <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/girlserver.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
+                <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">COLOCATION</h1>
+                <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}>Explore how <strong style={{color:'dodgerblue'}}>BornTec</strong> can help you accelerate in todays rapidly <strong style={{color:'dodgerblue'}}>changing world</strong></h4>
+            </div>
+            <br/>
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1 class="display-4">Managed Hosting <strong style={{ color: theme.primaryColor1 }}>Services</strong></h1>
