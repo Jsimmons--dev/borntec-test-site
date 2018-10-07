@@ -19,11 +19,15 @@ class NewsFeed extends Component {
 
 
     render() {
+    
         console.log(this.state)
     let posts = this.state.posts && this.state.posts.map((d, i) => <li key={i}><Link to={`/article/${d.id}`}>{d.title.rendered}</Link></li>)
         return (
             <div>
-                <ul>
+                <h1 align='center' style={{color:'white'}}> STAY <strong style={{color:'dodgerblue'}}>UP TO DATE</strong> WITH RECENT <strong style={{color:'dodgerblue'}}>NEWS</strong></h1>
+                <br/>
+                <br/>
+                <ul style={{color:'white'}}>
                     {posts}
                 </ul>
             </div >

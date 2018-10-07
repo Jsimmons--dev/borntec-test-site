@@ -6,10 +6,14 @@ class Contact extends Component {
     render() {
         return (
             <div>
+           <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/servers.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
+                <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">THANKS FOR VISITNG <strong style={{color:'dodgerblue'}}>BORNTEC</strong></h1>
+                <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}><strong style={{color:'dodgerblue'}}>Schedule</strong> a time to meet with us or <strong style={{color:'dodgerblue'}}>send us your contact information</strong> and we will <strong style={{color:'dodgerblue'}}>promptly</strong> get back to you!</h4>
+            </div>
             <br/>
             <br/>
             <br/>
-            <h1 align="center" style={{color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Contact</strong> Us</h1>
+            <h1 align="left" style={{color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Contact</strong> Us</h1>
             <div style={{display:'flex', justifyContent:'space-around'}}>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around', flexDirection: 'column', height: "800px" }} id='contact'>
                 </div>
