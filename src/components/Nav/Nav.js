@@ -13,11 +13,11 @@ export class Nav extends Component {
                         <a className="navbar-brand" href="#">
                             <img style={{ display: 'inline' }} className='brand-icon logo' alt="Brand" src="./4 black_crop.png" />
                         </a>
-                        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </div>
-                    <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse container-fluid">
                         <ul class="navbar-nav ml-auto list-inline">
                             <Link to='/' className='nav-link text-white'>Home</Link>
                             <Link to='/solutions' className='nav-link nav-box text-white list-inline-item'>Our Solutions</Link>

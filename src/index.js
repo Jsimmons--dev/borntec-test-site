@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import * as popper from 'popper.js'
+import * as bootstrap from 'bootstrap'
 import App from './components/Home/App';
 import { Solutions } from './components/Solutions/Solutions'
 import { Services } from './components/Services/Services'
