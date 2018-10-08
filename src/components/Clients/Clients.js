@@ -37,7 +37,7 @@ class Clients extends Component {
                     <p class="lead">Born allows banking institutions the ability to provide a diverse offering of front end trading platforms without the cost associated with each respective infrastructure requirements.</p>
                     <IconHeader icon="icon-optimizedglobalfootprint" color={theme.primaryColor2} text="Optimized Global Footprint" />
                     <p class="lead">Customers leverage Born’s extensive data center infrastructure for co-location and low latency trading needs, as well as increased reliability and uptime.</p>
-                    <IconHeader icon="icon-optimizedglobalfootprint" color={theme.primaryColor2} text="Synergistic Relationship" />
+                    <IconHeader icon="icon-group" color={theme.primaryColor2} text="Synergistic Relationship" />
                     <p class="lead">Born’s philosophy is to work with internal IT staff, not replace them. We believe creating a synergistic relationship with internal IT groups provides the best technology infrastructures for the bank and its clients.</p>
                     <IconHeader icon="icon-tradersupportservices" color={theme.primaryColor2} text="Trader Support Service" />
                     <p class="lead">Born’s client services teams, operating in Chicago provide 24*7 support coverage for functional and technical services.</p>
@@ -54,7 +54,7 @@ class Clients extends Component {
                     <p class='lead'>Born’s state of the art ultra low latency infrastructure currently provides direct market access to dozens of futures, fixed income and FX exchanges in North America, South America, Europe and Asia</p>
                     <IconHeader icon="icon-globalcolocation" color={theme.primaryColor1} text="Global Colocation" />
                     <p class='lead'>Over the past decade Born has invested significant resources to build out co-location facilities with the closest proximity to any given exchange matching engine, in most cases located in the same building as the exchange matching engine. Born currently has co-location facilities for the major exchanges in North America, South America, Europe and Asia.</p>
-                    <IconHeader icon="icon-microwaveconnectivity" color={theme.primaryColor1} text="Microwave Connectivity" />
+                    <IconHeader icon="icon-fixconnectivity" color={theme.primaryColor1} text="Microwave Connectivity" />
                     <p class='lead'>Born’s exclusive microwave connection to the CME data center in Aurora uses state-of-the-art RF technology to provide the industry with the lowest possible latency.</p>
                     <IconHeader icon="icon-networkinsfrastructure" color={theme.primaryColor1} text="Network Infrastructure" />
                     <p class='lead'>Born is a global partner with the leading data transport / telecommunication provider. Born provides the lowest latency connection between data centers and exchanges.</p>

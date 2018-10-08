@@ -13,7 +13,7 @@ class Contact extends Component {
             <br/>
             <br/>
             <br/>
-            <h1 align="left" style={{color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Contact</strong> Us</h1>
+            <h1 align="center" style={{color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Contact</strong> Us</h1>
             <div style={{display:'flex', justifyContent:'space-around'}}>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around', flexDirection: 'column', height: "800px" }} id='contact'>
                 </div>
