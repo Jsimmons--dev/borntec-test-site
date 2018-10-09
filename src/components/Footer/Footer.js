@@ -13,11 +13,11 @@ export class Footer extends Component {
                     <div class="row">
                         <hr class="clearfix w-100 d-md-none pb-3" />
 
-                        <div class="col-md-3 mb-md-0 mb-3">
+                        <div class="offset-md-1 col-md-2 mb-md-0 mb-2">
 
-                            <ul class="list-unstyled">
+                            <ul align='center' class="list-unstyled">
                                 <li>
-                                    <a class='text-light' href="#!"><strong>COMPANY</strong></a>
+                                    <strong>COMPANY</strong>
                                 </li>
                                 <li style={{ color: 'grey' }}>
                                     news
@@ -34,11 +34,11 @@ export class Footer extends Component {
                             </ul>
 
                         </div>
-                        <div class="col-md-3 mb-md-0 mb-3">
+                        <div class="col-md-2 mb-md-0 mb-2">
 
-                            <ul class="list-unstyled">
+                            <ul align='center' class="list-unstyled">
                                 <li>
-                                    <a class='text-light' href="#!"><strong>ADDRESS</strong></a>
+                                    <strong>ADDRESS</strong>
                                 </li>
                                 <li style={{ color: 'grey' }}>
                                     191 North Wacker
@@ -52,11 +52,11 @@ export class Footer extends Component {
                             </ul>
 
                         </div>
-                        <div class="col-md-3 mb-md-0 mb-3">
+                        <div class="col-md-2 mb-md-0 mb-2">
 
-                            <ul class="list-unstyled">
+                            <ul align='center' class="list-unstyled">
                                 <li>
-                                    <a class='text-light' href="#!"><strong>PHONE</strong></a>
+                                    <strong>PHONE</strong>
                                 </li>
                                 <li style={{ color: 'grey' }}>
                                     +1 (312) 977-0123
@@ -65,16 +65,33 @@ export class Footer extends Component {
 
                         </div>
 
-                        <div class="col-md-3 mb-md-0 mb-3">
+                        <div class="col-md-2 mb-md-0 mb-2">
 
-                            <ul class="list-unstyled">
+                            <ul align='center' class="list-unstyled">
                                 <li>
-                                    <a class='text-light' href="#!"><strong>EMAIL</strong></a>
+                                    <strong>EMAIL</strong>
                                 </li>
                                 <li style={{ color: 'grey' }}>
                                     sales@borntec.com
 </li>
                             </ul>
+
+                        </div>
+                        <div class="col-md-2 mb-md-0 mb-2">
+
+                            <div class="list-unstyled" style={{display:'flex', alignItems:'center', flexDirection:'column'}}>
+                                <div>
+                                    <strong>follow us</strong>
+                                </div>
+                                <div style={{ display: 'flex', justifyContent:'space-around'}}>
+                                    <div style={{ color: 'grey', padding:'5px' }}>
+                                        <a><img src='./assets/icons/In-White-41px-R.png'></img></a>
+                                    </div>
+                                    <div style={{ color: 'grey', padding:'5px'  }}>
+                                        <a><img width='41px' src='./assets/icons/Twitter_Logo_WhiteOnImage.svg'></img></a>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
