@@ -81,7 +81,7 @@ export class Footer extends Component {
 
                             <div class="list-unstyled" style={{display:'flex', alignItems:'center', flexDirection:'column'}}>
                                 <div>
-                                    <strong>follow us</strong>
+                                    <strong>FOLLOW US</strong>
                                 </div>
                                 <div style={{ display: 'flex', justifyContent:'space-around'}}>
                                     <div style={{ color: 'grey', padding:'5px' }}>
@@ -98,7 +98,7 @@ export class Footer extends Component {
 
                 </div>
 
-                <div class="footer-copyright text-center py-3 text-light"><strong>© 2018 Copyright BornTec</strong></div>
+                <div class="footer-copyright text-center py-3 text-light"><strong>© 2018 Copyright BornTec <a style={{color:'white'}} href="https://www.borntec.com/wp-login.php" className="fas fa-lock"></a></strong></div>
 
             </footer>
         );
