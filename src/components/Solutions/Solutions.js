@@ -14,7 +14,7 @@ export class Solutions extends Component {
     render() {
         return (
             <div >
-                <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/chopper.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
+                <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/stockpad.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
                 <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">Meet our solutions</h1>
                 <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}>Explore our <strong style={{color:'dodgerblue'}}>products</strong> that create our <strong style={{color:'dodgerblue'}}>Flight Control</strong> suite</h4>
             </div>
