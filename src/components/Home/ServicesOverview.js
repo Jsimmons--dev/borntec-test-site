@@ -22,16 +22,16 @@ class ServicesOverview extends Component {
                 <br />
                 <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }} align='center'>
                     <Link style={{ color: theme.textColor }} to='/services/#'>
-                        <MiniProductPreview bgColor={theme.primaryColor2} name="Low Latency Infrastructure" icon="icon-hosting" size="80px" />
+                        <MiniProductPreview bgColor={'white'} name="Low Latency Infrastructure" icon="icon-hosting" size="80px" />
                     </Link>
                     <Link style={{ color: theme.textColor }} to='/services/#'>
-                        <MiniProductPreview bgColor={theme.primaryColor2} name="Low Latency Infrastructure" icon="far fa-clock" />
+                        <MiniProductPreview bgColor={'white'} name="Low Latency Infrastructure" icon="far fa-clock" />
                     </Link>
                     <Link style={{ color: theme.textColor }} to='/services/#'>
-                        <MiniProductPreview bgColor={theme.primaryColor2} name="Direct Market Access" icon="icon-direct-market-access" size="80px" />
+                        <MiniProductPreview bgColor={'white'} name="Direct Market Access" icon="icon-direct-market-access" size="80px" />
                     </Link>
                     <Link style={{ color: theme.textColor }} to='/services/#'>
-                        <MiniProductPreview bgColor={theme.primaryColor2} name="Microwave Connectivity" icon="fas fa-wifi" size="80px" />
+                        <MiniProductPreview bgColor={'white'} name="Microwave Connectivity" icon="fas fa-wifi" size="80px" />
                     </Link>
 
                 </div>

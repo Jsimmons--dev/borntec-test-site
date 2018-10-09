@@ -81,14 +81,17 @@ export class Footer extends Component {
 
                             <div class="list-unstyled" style={{display:'flex', alignItems:'center', flexDirection:'column'}}>
                                 <div>
-                                    <strong>FOLLOW US</strong>
+                                    <strong>MEDIA</strong>
                                 </div>
                                 <div style={{ display: 'flex', justifyContent:'space-around'}}>
                                     <div style={{ color: 'grey', padding:'5px' }}>
                                         <a><img src='./assets/icons/In-White-41px-R.png'></img></a>
                                     </div>
                                     <div style={{ color: 'grey', padding:'5px'  }}>
-                                        <a><img width='41px' src='./assets/icons/Twitter_Logo_WhiteOnImage.svg'></img></a>
+                                        <a><img width='51px' src='./assets/icons/Twitter_Logo_WhiteOnImage.svg'></img></a>
+                                    </div>
+                                    <div style={{ color: 'grey', padding:'5px'  }}>
+                                        <a><img width='41px' src='./assets/icons/lock.svg'></img></a>
                                     </div>
                                 </div>
                             </div>
