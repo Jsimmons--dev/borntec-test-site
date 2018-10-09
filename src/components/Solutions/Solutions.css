@@ -1,0 +1,23 @@
+@media only screen and (max-width: 767px)  {
+    .jumbo-image {
+      flex-direction:column;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .jumbo-image {
+      flex-direction:row;
+    }
+  }
+
+  @media only screen and (max-width: 767px)  {
+    .jumbo-image-reverse {
+      flex-direction:column;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .jumbo-image-reverse {
+      flex-direction:row-reverse;
+    }
+  }
