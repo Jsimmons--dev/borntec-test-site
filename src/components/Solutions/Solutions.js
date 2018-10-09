@@ -16,8 +16,8 @@ export class Solutions extends Component {
         return (
             <div >
                 <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/stockpad.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
-                    <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">Meet our solutions</h1>
-                    <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}>Explore our <strong style={{ color: 'dodgerblue' }}>products</strong> that create our <strong style={{ color: 'dodgerblue' }}>Flight Control</strong> suite</h4>
+                    <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">Meet our <strong style={{color:'dodgerblue'}}>solutions </strong></h1>
+                    <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}>CrossCheck, TraC, CORE and Jet Connect provide our clients with compliance and monitoring tools, real-time data analytics capabilities as well as direct market access and care orders between clients and brokers. Read below for more information about our product suite and solutions offering.</h4>
                 </div>
                 <div>
 
@@ -29,7 +29,7 @@ export class Solutions extends Component {
                             ['Position Monitoring and Alerting', 'Aggregate working orders and filled positions from all trading systems and exchanges in realtime', 'Group blocks of accounts into custom risk groups', 'Define thresholds for clip size, limit breaches, and many more parameters'],
                             ['Transaction Reporting for MiFID II', 'Automated retrieval of customer trade records', 'Data enrichment and formatting', 'Report validation', 'Secure delivery to regulators']
                         ]}
-                        image={'./assets/crosscheck_feature.jpg'} />
+                        image={'./assets/crosscheck2.jpg'} />
 
                     <JumboImage title={'TraC'}
                         reverse={true}
@@ -40,7 +40,7 @@ export class Solutions extends Component {
                             ['Single Screen, Rapid Access to All Order Flow', 'Navigate one application for worldwide order flow', 'Easily search orders by any field', 'View and cancel orders', 'Export and download order flow detail'],
                             ['Automated Trading and DEA Management', 'Monitor messaging velocity in realtime', 'Visualize by exchange, trade session, user, algo ID & more', 'Monitor for rejections and limit band breaches', 'Realtime alerts via email, SMS, Symphony, Slack, etc.']
                         ]}
-                        image={'./assets/crosscheck_feature.jpg'} />
+                        image={'./assets/tracfeature.jpg'} />
 
                     <JumboImage title={'CORE'}
                         id={'core'}
@@ -57,7 +57,7 @@ export class Solutions extends Component {
                             ['Flexibility', 'Production ready in days to weeks', 'Multi-Asset, Multi-Market Trade Flow', 'Easy counterparty connectivity', '30+ API’s plug-and-play'],
                             ['Consolidation', 'Rapid DMA/FIX Integrations with easy normalization and transformation', 'Central hub for all trade flow', 'Trade reporting in flexible formats via email/sftp'],
                         ]}
-                        image={'./assets/crosscheck_feature.jpg'} />
+                        image={'./assets/JCfeature.jpg'} />
                 </div>
             </div >
         );

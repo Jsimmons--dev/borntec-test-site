@@ -25,16 +25,16 @@ class SolutionsOverview extends Component {
                 <br />
                 <div align='center' style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
                     <Link style={{ color: theme.textColor }} to='/solutions/#crosscheck'>
-                        <MiniProductPreview bgColor={theme.primaryColor1} name="Cross Check" icon="fas fa-check" size="90px" desc="Compliance and Monitoring System, MiFID II, CFTC and MAR" />
+                        <MiniProductPreview bgColor={theme.primaryColor1} name="Risk & Compliance" icon="fas fa-check" size="90px" desc="Cross Check" />
                     </Link>
                     <Link style={{ color: theme.textColor }} to='/solutions/#jetconnect'>
-                        <MiniProductPreview bgColor={theme.primaryColor1} name="Jet Connect" icon="fas fa-fighter-jet" size="80px" desc="SaaS Real-Time Trade Flow Distribution" />
+                        <MiniProductPreview bgColor={theme.primaryColor1} name="Trade Flow" icon="fas fa-fighter-jet" size="80px" desc="JetConnect" />
                     </Link>
                     <Link style={{ color: theme.textColor }} to='/solutions/#trac'>
-                        <MiniProductPreview bgColor={theme.primaryColor1} name="TraC" icon="fas fa-cogs" size="70px" desc="Real-Time Trade Blotter Across All Vendors/Exchanges" />
+                        <MiniProductPreview bgColor={theme.primaryColor1} name="Trade Blotter" icon="fas fa-cogs" size="70px" desc="TraC" />
                     </Link>
                     <Link style={{ color: theme.textColor }} to='/solutions/#core'>
-                        <MiniProductPreview bgColor={theme.primaryColor1} name="CORE" icon="fas fa-arrow-right" desc="Care Order STP Between Clients and Brokers" />
+                        <MiniProductPreview bgColor={theme.primaryColor1} name="Care Orders" icon="fas fa-arrow-right" desc="CORE" />
                     </Link>
 
                 </div>

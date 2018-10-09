@@ -18,19 +18,9 @@ export class Services extends Component {
             <div>
                 <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/girlserver.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
                 <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">Colocation</h1>
-                <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}>Explore how <strong style={{color:'dodgerblue'}}>BornTec</strong> can help you accelerate in todays rapidly <strong style={{color:'dodgerblue'}}>changing world</strong></h4>
+                <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}>Explore how <strong style={{color:'dodgerblue'}}>BornTec</strong> can help you optimize your <strong style={{color:'dodgerblue'}}>trading operations</strong> in todays rapidly changing world.</h4>
             </div>
             <br/>
-                <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
-                    <div class="container">
-                        <h1 class="display-4">Managed Hosting <strong style={{ color: theme.primaryColor1 }}>Services</strong></h1>
-                        <h5 style={{ color: theme.primaryColor1 }}>Trading Technologies</h5>
-                        <p class="lead">An extremely popular trading tool with extensive customization capabilities. Proprietary trading groups, locals and hedge funds are large users of X_Trader.
-                        </p>
-                        <h5 style={{ color: theme.primaryColor1 }}>Itiviti</h5>
-                        <p>Born Technology is a global partner with Itiviti Software, delivering fully hosted and managed solutions for Itiviti and Cameron FIX.</p>
-                    </div>
-                </div>
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1 class="display-4" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Direct Market</strong> Access</h1>
@@ -57,6 +47,18 @@ export class Services extends Component {
                         <p class="lead">In addition to providing custom fiber pathways and other unique transit systems, Born is a global partner with a leading telco providers. Born provides the lowest latency connections between our data centers and exchanges.</p>
                         <h5 style={{ color: theme.primaryColor1 }}>Microwave Telecommunication Services</h5>
                         <p class="lead">Born offers the lowest latency data transmission using state-of-the-art RF technologies.</p>
+                    </div>
+                </div>
+                <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Managed Hosting <strong style={{ color: theme.primaryColor1 }}>Services</strong></h1>
+                        <h5><strong style={{ color: theme.primaryColor1 }}>Blue Trading Systems</strong></h5>
+                        <p class='lead'>Blue Trading Systems builds practical, efficient solutions to complex problems presented by today's capital markets, offering high-performance, robust trading platforms for sophisticated derivatives traders.</p>
+                        <h5 style={{ color: theme.primaryColor1 }}>Trading Technologies</h5>
+                        <p class="lead">An extremely popular trading tool with extensive customization capabilities. Proprietary trading groups, locals and hedge funds are large users of X_Trader.
+                        </p>
+                        <h5 style={{ color: theme.primaryColor1 }}>Itiviti</h5>
+                        <p>Born Technology is a global partner with Itiviti Software, delivering fully hosted and managed solutions for Itiviti and Cameron FIX.</p>
                     </div>
                 </div>
             </div >
