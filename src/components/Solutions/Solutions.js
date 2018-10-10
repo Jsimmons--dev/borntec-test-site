@@ -8,16 +8,18 @@ import JumboImage from './JumboImage'
 export class Solutions extends Component {
 
     componentDidMount() {
-        if (this.props.location && this.props.location.hash !== "")
+        if (this.props.location && this.props.location.hash !== "") {
+            this.props.history.go(0)
             document.querySelector(this.props.location.hash).scrollIntoView()
+        }
     }
 
     render() {
         return (
             <div >
                 <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/stockpad.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
-                    <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">Meet our <strong style={{color:'dodgerblue'}}>solutions </strong></h1>
-                    <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}><strong style={{color:'dodgerblue'}}>CrossCheck, TraC, CORE</strong> and <strong style={{color:'dodgerblue'}}>Jet Connect</strong> provide our clients with compliance and monitoring tools, real-time data analytics capabilities as well as direct market access and care orders between clients and brokers. <strong style={{color:'dodgerblue'}}>Read below</strong> for more information about our product suite and solutions offering.</h4>
+                    <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">Meet our <strong style={{ color: 'dodgerblue' }}>solutions </strong></h1>
+                    <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}><strong style={{ color: 'dodgerblue' }}>CrossCheck, TraC, CORE</strong> and <strong style={{ color: 'dodgerblue' }}>Jet Connect</strong> provide our clients with compliance and monitoring tools, real-time data analytics capabilities as well as direct market access and care orders between clients and brokers. <strong style={{ color: 'dodgerblue' }}>Read below</strong> for more information about our product suite and solutions offering.</h4>
                 </div>
                 <div>
 
