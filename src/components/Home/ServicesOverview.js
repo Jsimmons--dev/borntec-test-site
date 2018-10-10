@@ -22,16 +22,16 @@ class ServicesOverview extends Component {
                 <br />
                 <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }} align='center'>
                     <Link style={{ color: theme.textColor }} to='/services/#'>
-                        <MiniProductPreview bgColor={'white'} name="Low Latency Infrastructure" icon="icon-hosting" size="80px" />
+                        <MiniProductPreview color={theme.primaryColor2} bgColor={'white'} name="Low Latency Infrastructure" icon="icon-hosting" size="80px" />
                     </Link>
                     <Link style={{ color: theme.textColor }} to='/services/#'>
-                        <MiniProductPreview bgColor={'white'} name="Low Latency Infrastructure" icon="far fa-clock" />
+                        <MiniProductPreview color={theme.primaryColor2} bgColor={'white'} name="Low Latency Infrastructure" icon="far fa-clock" />
                     </Link>
                     <Link style={{ color: theme.textColor }} to='/services/#'>
-                        <MiniProductPreview bgColor={'white'} name="Direct Market Access" icon="icon-direct-market-access" size="80px" />
+                        <MiniProductPreview color={theme.primaryColor2} bgColor={'white'} name="Direct Market Access" icon="icon-direct-market-access" size="80px" />
                     </Link>
                     <Link style={{ color: theme.textColor }} to='/services/#'>
-                        <MiniProductPreview bgColor={'white'} name="Microwave Connectivity" icon="fas fa-wifi" size="80px" />
+                        <MiniProductPreview color={theme.primaryColor2} bgColor={'white'} name="Microwave Connectivity" icon="fas fa-wifi" size="80px" />
                     </Link>
 
                 </div>
