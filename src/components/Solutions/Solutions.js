@@ -21,9 +21,9 @@ export class Solutions extends Component {
                 </div>
                 <div>
 
-                    <JumboImage title={'Cross Check'}
+                    <JumboImage title={'Compliance & Monitoring'}
                         id={'crosscheck'}
-                        desc={'Compliance and Monitoring System, MiFID II, CFTC and MAR'}
+                        desc={'Cross Check'}
                         list={[
                             ['Automated Trading and DEA Management', 'Monitor messaging velocity in realtime', 'Visualize by exchange, trade session, user, algo ID & more', 'Monitor for rejections and limit band breaches', 'Realtime alerts via email, SMS, Symphony, Slack, etc.'],
                             ['Position Monitoring and Alerting', 'Aggregate working orders and filled positions from all trading systems and exchanges in realtime', 'Group blocks of accounts into custom risk groups', 'Define thresholds for clip size, limit breaches, and many more parameters'],
@@ -31,10 +31,10 @@ export class Solutions extends Component {
                         ]}
                         image={'./assets/crosscheck2.jpg'} />
 
-                    <JumboImage title={'TraC'}
+                    <JumboImage title={'Trade Blotter'}
                         reverse={true}
                         id={'trac'}
-                        desc={'Real-Time Trade Blotter Across All Vendors/Exchanges'}
+                        desc={'TraC'}
                         list={[
                             ['Cost Effective Terminals for Risk & Compliance', 'TraC is intuitive and easy to use for non-trading personnel'],
                             ['Single Screen, Rapid Access to All Order Flow', 'Navigate one application for worldwide order flow', 'Easily search orders by any field', 'View and cancel orders', 'Export and download order flow detail'],
@@ -42,17 +42,17 @@ export class Solutions extends Component {
                         ]}
                         image={'./assets/tracfeature.jpg'} />
 
-                    <JumboImage title={'CORE'}
+                    <JumboImage title={'Care Orders'}
                         id={'core'}
-                        desc={'Care Order STP Between Clients and Brokers'}
+                        desc={'CORE'}
                         listTop={'Client-Broker FIX Routing for Care Orders'}
                         list={[['Client-Broker FIX Routing for Care Orders', 'SaaS deployment', 'Full STP for clients', 'Brokers execute away or via DMA', 'Many OMS’s pre-certified']]}
                         image={'./assets/core_feature.jpg'} />
 
-                    <JumboImage title={'JetConnect'}
+                    <JumboImage title={'Trade Flow Distribution'}
                         reverse={true}
                         id={'jetconnect'}
-                        desc={'SaaS Real-Time Trade Flow Distribution'}
+                        desc={'JetConnect'}
                         list={[
                             ['Flexibility', 'Production ready in days to weeks', 'Multi-Asset, Multi-Market Trade Flow', 'Easy counterparty connectivity', '30+ API’s plug-and-play'],
                             ['Consolidation', 'Rapid DMA/FIX Integrations with easy normalization and transformation', 'Central hub for all trade flow', 'Trade reporting in flexible formats via email/sftp'],
