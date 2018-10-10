@@ -23,7 +23,7 @@ export class Solutions extends Component {
                 </div>
                 <div>
 
-                    <JumboImage title={'Compliance and Monitoring'}
+                    <JumboImage className='desc-text' title={'Compliance and Monitoring'}
                         id={'crosscheck'}
                         desc={'Cross Check'}
                         color={theme.primaryColor2}
