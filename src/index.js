@@ -21,7 +21,9 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 
 ReactDOM.render((
-    <Router onUpdate={() => window.scrollTo(0, 0)} >
+    <Router
+        onUpdate={() => { window.scrollTo(0, 0); $(".navbar-controller").removeClass("show"); }
+        } >
         <ScrollToTop>
             <div style={{ color: theme.textColor }} className="">
                 <Nav />
@@ -46,6 +48,7 @@ $(window).on("scroll", function () {
     if ($(window).scrollTop() >= 20) {
         //add the compressed css class to anything with class navbar
         $(".navbar").addClass("compressed");
+        $(".navbar-controller").removeClass("show");
         $(".navbar").css("background-color", theme.primaryColor2);
         $(".navbar").removeClass("top-down-gradient");
         //add the text-dark css class to any <a> tag that is a child of something with class navbar

@@ -1,16 +1,7 @@
-import $ from 'jquery';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
-import Header from '../Header/Header'
 import { theme } from '../../constants'
 
-
 export class Services extends Component {
-
-    componentDidMount() {
-        if (this.props.location && this.props.location.hash !== "")
-            window.scrollTop()
-    }
 
     render() {
         return (
