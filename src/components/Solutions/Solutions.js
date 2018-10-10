@@ -21,9 +21,10 @@ export class Solutions extends Component {
                 </div>
                 <div>
 
-                    <JumboImage title={'Cross Check'}
+                    <JumboImage title={'Compliance and Monitoring'}
                         id={'crosscheck'}
-                        desc={'Compliance and Monitoring System, MiFID II, CFTC and MAR'}
+                        desc={'Cross Check'}
+                        color={theme.primaryColor2}
                         list={[
                             ['Automated Trading and DEA Management', 'Monitor messaging velocity in realtime', 'Visualize by exchange, trade session, user, algo ID & more', 'Monitor for rejections and limit band breaches', 'Realtime alerts via email, SMS, Symphony, Slack, etc.'],
                             ['Position Monitoring and Alerting', 'Aggregate working orders and filled positions from all trading systems and exchanges in realtime', 'Group blocks of accounts into custom risk groups', 'Define thresholds for clip size, limit breaches, and many more parameters'],
@@ -34,6 +35,7 @@ export class Solutions extends Component {
                     <JumboImage title={'TraC'}
                         reverse={true}
                         id={'trac'}
+                        color={theme.primaryColor1}
                         desc={'Real-Time Trade Blotter Across All Vendors/Exchanges'}
                         list={[
                             ['Cost Effective Terminals for Risk & Compliance', 'TraC is intuitive and easy to use for non-trading personnel'],
@@ -44,6 +46,7 @@ export class Solutions extends Component {
 
                     <JumboImage title={'CORE'}
                         id={'core'}
+                        color={theme.primaryColor1}
                         desc={'Care Order STP Between Clients and Brokers'}
                         listTop={'Client-Broker FIX Routing for Care Orders'}
                         list={[['Client-Broker FIX Routing for Care Orders', 'SaaS deployment', 'Full STP for clients', 'Brokers execute away or via DMA', 'Many OMS’s pre-certified']]}
@@ -52,6 +55,7 @@ export class Solutions extends Component {
                     <JumboImage title={'JetConnect'}
                         reverse={true}
                         id={'jetconnect'}
+                        color={theme.primaryColor2}
                         desc={'SaaS Real-Time Trade Flow Distribution'}
                         list={[
                             ['Flexibility', 'Production ready in days to weeks', 'Multi-Asset, Multi-Market Trade Flow', 'Easy counterparty connectivity', '30+ API’s plug-and-play'],

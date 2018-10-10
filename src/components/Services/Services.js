@@ -8,7 +8,6 @@ import { theme } from '../../constants'
 export class Services extends Component {
 
     componentDidMount() {
-        console.log(this.props)
         if (this.props.location && this.props.location.hash !== "")
             window.scrollTop()
     }
