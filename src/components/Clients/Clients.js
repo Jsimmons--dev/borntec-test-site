@@ -43,6 +43,7 @@ class Clients extends Component {
                 <br />
                 <br />
                 <br />
+                <hr style={{ width: '80%' }} />
 
 
                 <div id="banks" class="container">
@@ -64,6 +65,7 @@ class Clients extends Component {
                 <br />
                 <br />
                 <br />
+                <hr style={{ width: '80%' }} />
 
                 <div id="proptrading" class='container'>
                     <br />

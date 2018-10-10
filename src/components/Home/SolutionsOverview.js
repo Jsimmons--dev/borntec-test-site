@@ -40,9 +40,6 @@ class SolutionsOverview extends Component {
                 </div>
                 <br />
                 <br />
-                <br />
-                <br />
-                <hr style={{ width: '100%' }} />
             </div >
         );
     }

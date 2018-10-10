@@ -32,6 +32,7 @@ class NewsArticle extends Component {
         return (
             <div dangerouslySetInnerHTML={post}>
             </div >
+
         );
     }
 }

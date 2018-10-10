@@ -34,7 +34,8 @@ export class Solutions extends Component {
                             ['Transaction Reporting for MiFID II', 'Automated retrieval of customer trade records', 'Data enrichment and formatting', 'Report validation', 'Secure delivery to regulators']
                         ]}
                         image={'./assets/crosscheck2.jpg'} />
-                        <hr />
+                    <hr style={{ width: '80%' }} />
+                        
 
                     <JumboImage title={'Trade Blotter'}
                         reverse={true}
@@ -48,6 +49,7 @@ export class Solutions extends Component {
                             ['Automated Trading and DEA Management', 'Monitor messaging velocity in realtime', 'Visualize by exchange, trade session, user, algo ID & more', 'Monitor for rejections and limit band breaches', 'Realtime alerts via email, SMS, Symphony, Slack, etc.']
                         ]}
                         image={'./assets/tracfeature.jpg'} />
+                    <hr style={{ width: '80%' }} />
 
                     <JumboImage title={'Care Orders'}
                         id={'core'}
@@ -56,6 +58,7 @@ export class Solutions extends Component {
                         listTop={'Client-Broker FIX Routing for Care Orders'}
                         list={[['Client-Broker FIX Routing for Care Orders', 'SaaS deployment', 'Full STP for clients', 'Brokers execute away or via DMA', 'Many OMS’s pre-certified']]}
                         image={'./assets/core_feature.jpg'} />
+                    <hr style={{ width: '80%' }} />
 
                     <JumboImage title={'Trade Flow Distribution'}
                         reverse={true}

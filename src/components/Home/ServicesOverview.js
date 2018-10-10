@@ -39,7 +39,6 @@ class ServicesOverview extends Component {
                 <br />
                 <br />
                 <br />
-                <hr style={{ width: '100%' }} />
             </div>
         );
     }

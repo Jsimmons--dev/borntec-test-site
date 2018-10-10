@@ -90,12 +90,23 @@ export class Footer extends Component {
                                     <div style={{ color: 'grey', padding:'5px'  }}>
                                         <a href="https://twitter.com/borntec"><img width='51px' src='./assets/icons/Twitter_Logo_WhiteOnImage.svg'></img></a>
                                     </div>
-                                    <div style={{ color: 'grey', padding:'5px'  }}>
-                                        <a href="https://www.borntec.com/wp-login.php" ><img width='41px' src='./assets/icons/lock.svg'></img></a>
-                                    </div>
+                                    
                                 </div>
                             </div>
 
+                        </div>
+                        <div class='col-md-2 mb-md-0 mb-2'>
+
+                            <div class='list-unstyled' style={{display:'flex', alignitems:'center', flexdirection:'column'}}>
+                                <div>
+                                    <strong>LOGIN</strong>
+                                </div>
+                                <div style={{display: 'flex', justifyContent:'sace-around'}}>
+                                    <div style={{color:'grey', padding:'5px' }}>
+                                        <a href="https://www.borntec.com/wp-login.php" ><img width='41px' src='./assets/icons/lock.svg'></img></a> 
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 

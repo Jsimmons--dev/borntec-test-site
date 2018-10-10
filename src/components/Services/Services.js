@@ -26,6 +26,7 @@ export class Services extends Component {
                         <p className='desc-text lead'>Our data center delivers multi-level security to ensure the highest level of security for your operations.</p>
                     </div>
                 </div>
+                <hr style={{ width: '80%' }} />
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1 class="display-4" style={{ color: theme.textColor }}>Low Latency <strong style={{ color: theme.primaryColor2 }}>Trading</strong></h1>
@@ -39,6 +40,7 @@ export class Services extends Component {
                         <p className='desc-text lead'>Born offers the lowest latency data transmission using state-of-the-art RF technologies.</p>
                     </div>
                 </div>
+                <hr style={{ width: '80%' }} />
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1 class="display-4">Managed Hosting <strong style={{ color: theme.primaryColor2 }}>Services</strong></h1>
