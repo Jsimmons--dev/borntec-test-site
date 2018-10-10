@@ -26,6 +26,7 @@ class Clients extends Component {
                     <IconHeader icon="icon-noncompetition" color={theme.primaryColor2} text="Non-Competition" />
                     <p className='desc-text lead'>Born Technology does NOT trade and is not in competition with our trading customers.</p>
                 </div>
+                <hr/>
                 <br/>
                 <br/>
                 <br/>
