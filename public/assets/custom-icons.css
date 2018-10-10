@@ -50,6 +50,7 @@
 }
 .icon-hosting:before {
   content: "\e908";
+  color: #fff;
 }
 .icon-group:before {
   content: "\e909";
@@ -62,6 +63,7 @@
 }
 .icon-direct-market-access:before {
   content: "\e90c";
+  color: #fff;
 }
 .icon-customizedsolutions:before {
   content: "\e90d";

@@ -32,7 +32,7 @@ export class Solutions extends Component {
                         ]}
                         image={'./assets/crosscheck2.jpg'} />
 
-                    <JumboImage title={'TraC'}
+                    <JumboImage title={'Trade Blotter'}
                         reverse={true}
                         id={'trac'}
                         color={theme.primaryColor2}
@@ -44,7 +44,7 @@ export class Solutions extends Component {
                         ]}
                         image={'./assets/tracfeature.jpg'} />
 
-                    <JumboImage title={'CORE'}
+                    <JumboImage title={'Care Orders'}
                         id={'core'}
                         color={theme.primaryColor2}
                         desc={'Care Order STP Between Clients and Brokers'}
@@ -52,7 +52,7 @@ export class Solutions extends Component {
                         list={[['Client-Broker FIX Routing for Care Orders', 'SaaS deployment', 'Full STP for clients', 'Brokers execute away or via DMA', 'Many OMS’s pre-certified']]}
                         image={'./assets/core_feature.jpg'} />
 
-                    <JumboImage title={'JetConnect'}
+                    <JumboImage title={'Trade Flow Distribution'}
                         reverse={true}
                         id={'jetconnect'}
                         color={theme.primaryColor2}
