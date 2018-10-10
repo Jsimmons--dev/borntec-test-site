@@ -5,7 +5,7 @@ let light = {
 }
 
 let dark = {
-    primaryColor1: 'limeGreen',
+    primaryColor1: 'dodgerblue',
     primaryColor2: 'dodgerBlue',
     textColor: 'white'
 }

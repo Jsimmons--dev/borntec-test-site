@@ -85,13 +85,13 @@ export class Footer extends Component {
                                 </div>
                                 <div style={{ display: 'flex', justifyContent:'space-around'}}>
                                     <div style={{ color: 'grey', padding:'5px' }}>
-                                        <a><img src='./assets/icons/In-White-41px-R.png'></img></a>
+                                        <a href='https://www.linkedin.com/company/born-technology/LinkedIn'><img src='./assets/icons/In-White-41px-R.png'></img></a>
                                     </div>
                                     <div style={{ color: 'grey', padding:'5px'  }}>
-                                        <a><img width='51px' src='./assets/icons/Twitter_Logo_WhiteOnImage.svg'></img></a>
+                                        <a href="https://twitter.com/borntec"><img width='51px' src='./assets/icons/Twitter_Logo_WhiteOnImage.svg'></img></a>
                                     </div>
                                     <div style={{ color: 'grey', padding:'5px'  }}>
-                                        <a><img width='41px' src='./assets/icons/lock.svg'></img></a>
+                                        <a href="https://www.borntec.com/wp-login.php" ><img width='41px' src='./assets/icons/lock.svg'></img></a>
                                     </div>
                                 </div>
                             </div>
@@ -101,7 +101,7 @@ export class Footer extends Component {
 
                 </div>
 
-                <div class="footer-copyright text-center py-3 text-light"><strong>© 2018 Copyright BornTec <a style={{color:'white'}} href="https://www.borntec.com/wp-login.php" className="fas fa-lock"></a></strong></div>
+                <div class="footer-copyright text-center py-3 text-light"><strong>© 2018 Copyright BornTec</strong></div>
 
             </footer>
         );

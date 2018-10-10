@@ -19,7 +19,7 @@ export class Solutions extends Component {
             <div >
                 <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/stockpad.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
                     <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">Meet our <strong style={{ color: 'dodgerblue' }}>solutions </strong></h1>
-                    <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}><strong style={{ color: 'dodgerblue' }}>CrossCheck, TraC, CORE</strong> and <strong style={{ color: 'dodgerblue' }}>Jet Connect</strong> provide our clients with compliance and monitoring tools, real-time data analytics capabilities as well as direct market access and care orders between clients and brokers. <strong style={{ color: 'dodgerblue' }}>Read below</strong> for more information about our product suite and solutions offering.</h4>
+                    <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}><strong style={{ color: 'dodgerblue' }}>CrossCheck, TraC, CORE</strong> and <strong style={{ color: 'dodgerblue' }}>Jet Connect</strong> provide our clients with compliance and monitoring tools, real-time data analytics capabilities as well as direct market access and care orders between clients and brokers. </h4>
                 </div>
                 <div>
 
@@ -27,17 +27,20 @@ export class Solutions extends Component {
                         id={'crosscheck'}
                         desc={'Cross Check'}
                         color={theme.primaryColor1}
+                        className={'desc-text lead'}
                         list={[
                             ['Automated Trading and DEA Management', 'Monitor messaging velocity in realtime', 'Visualize by exchange, trade session, user, algo ID & more', 'Monitor for rejections and limit band breaches', 'Realtime alerts via email, SMS, Symphony, Slack, etc.'],
                             ['Position Monitoring and Alerting', 'Aggregate working orders and filled positions from all trading systems and exchanges in realtime', 'Group blocks of accounts into custom risk groups', 'Define thresholds for clip size, limit breaches, and many more parameters'],
                             ['Transaction Reporting for MiFID II', 'Automated retrieval of customer trade records', 'Data enrichment and formatting', 'Report validation', 'Secure delivery to regulators']
                         ]}
                         image={'./assets/crosscheck2.jpg'} />
+                        <hr />
 
                     <JumboImage title={'Trade Blotter'}
                         reverse={true}
                         id={'trac'}
                         color={theme.primaryColor1}
+                        className={'desc-text lead'}
                         desc={'Real-Time Trade Blotter Across All Vendors/Exchanges'}
                         list={[
                             ['Cost Effective Terminals for Risk & Compliance', 'TraC is intuitive and easy to use for non-trading personnel'],

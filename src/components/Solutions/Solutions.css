@@ -21,3 +21,7 @@
       flex-direction:row-reverse;
     }
   }
+
+  hr /{
+    color: dodgerblue;
+  }
