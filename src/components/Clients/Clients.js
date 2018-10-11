@@ -54,7 +54,7 @@ class Clients extends Component {
                     <IconHeader icon="icon-reduceinfrastructurecosts" color={theme.primaryColor2} text="Reduced Infrastructure Costs" />
                     <p className='desc-text lead'>Born allows banking institutions the ability to provide a diverse offering of front end trading platforms without the cost associated with each respective infrastructure requirements.</p>
                     <IconHeader icon="icon-optimizedglobalfootprint" color={theme.primaryColor2} text="Optimized Global Footprint" />
-                    <p cclassName='desc-text lead'>Customers leverage Born’s extensive data center infrastructure for co-location and low latency trading needs, as well as increased reliability and uptime.</p>
+                    <p className='desc-text lead'>Customers leverage Born’s extensive data center infrastructure for co-location and low latency trading needs, as well as increased reliability and uptime.</p>
                     <IconHeader icon="icon-group" color={theme.primaryColor2} text="Synergistic Relationship" />
                     <p className='desc-text lead'>Born’s philosophy is to work with internal IT staff, not replace them. We believe creating a synergistic relationship with internal IT groups provides the best technology infrastructures for the bank and its clients.</p>
                     <IconHeader icon="icon-tradersupportservices" color={theme.primaryColor2} text="Trader Support Service" />

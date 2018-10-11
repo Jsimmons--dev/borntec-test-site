@@ -13,7 +13,7 @@ export class Footer extends Component {
                     <div class="row">
                         <hr class="clearfix w-100 d-md-none pb-3" />
 
-                        <div class="offset-md-1 col-md-2 mb-md-0 mb-2">
+                        <div class="col-md-2 mb-md-0 mb-2">
 
                             <ul align='center' class="list-unstyled">
                                 <li>
@@ -95,18 +95,20 @@ export class Footer extends Component {
                             </div>
 
                         </div>
-                        <div class='col-md-2 mb-md-0 mb-2'>
+                        <div class="col-md-2 mb-md-0 mb-2">
 
-                            <div class='list-unstyled' style={{display:'flex', alignitems:'center', flexdirection:'column'}}>
+                            <div class="list-unstyled" style={{display:'flex', alignItems:'center', flexDirection:'column'}}>
                                 <div>
                                     <strong>LOGIN</strong>
                                 </div>
-                                <div style={{display: 'flex', justifyContent:'sace-around'}}>
+                                <div style={{ display: 'flex', justifyContent:'space-around'}}>
                                     <div style={{color:'grey', padding:'5px' }}>
                                         <a href="https://www.borntec.com/wp-login.php" ><img width='41px' src='./assets/icons/lock.svg'></img></a> 
                                     </div>
+                                    
                                 </div>
                             </div>
+
                         </div>
                     </div>
 
