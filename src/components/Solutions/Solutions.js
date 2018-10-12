@@ -18,8 +18,8 @@ export class Solutions extends Component {
         return (
             <div >
                 <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/stockpad.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
-                    <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">Meet our <strong style={{ color: 'dodgerblue' }}>solutions </strong></h1>
-                    <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}><strong style={{ color: 'dodgerblue' }}>CrossCheck, TraC, CORE</strong> and <strong style={{ color: 'dodgerblue' }}>Jet Connect</strong> provide our clients with compliance and monitoring tools, real-time data analytics capabilities as well as direct market access and care orders between clients and brokers. </h4>
+                    <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">Meet our <strong>solutions </strong></h1>
+                    <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}><strong>CrossCheck, TraC, CORE</strong> and <strong>Jet Connect</strong> provide our clients with compliance and monitoring tools, real-time data analytics capabilities as well as direct market access and care orders between clients and brokers. </h4>
                 </div>
                 <div>
 

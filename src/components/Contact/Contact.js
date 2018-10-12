@@ -7,8 +7,8 @@ class Contact extends Component {
         return (
             <div>
                 <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/comms.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
-                    <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5"><strong style={{ color: 'White' }}>Thanks for visiting <strong style={{ color: 'dodgerblue' }}>BornTec</strong> </strong></h1>
-                    <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}><strong style={{ color: 'White' }}>Schedule a time to meet with us or send us your <strong style={{ color: 'dodgerblue' }}>contact information</strong> and we will <strong style={{ color: 'dodgerblue' }}>promptly</strong> get back to you!</strong></h4>
+                    <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5"><strong>Thanks for visiting <strong>BornTec</strong> </strong></h1>
+                    <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}><strong>Schedule a time to meet with us or send us your <strong>contact information</strong> and we will <strong>promptly</strong> get back to you!</strong></h4>
                 </div>
                 <br />
                 <br />
