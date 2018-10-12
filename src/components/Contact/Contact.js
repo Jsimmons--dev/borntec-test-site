@@ -13,50 +13,72 @@ class Contact extends Component {
                 <br />
                 <br />
                 <br />
-                <h1 align="center" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Contact</strong> Us</h1>
                 <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around', flexDirection: 'column', height: "800px" }} id='contact'>
+                    <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+                        <h1 align="center" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Contact</strong> Us</h1>
+                        <br />
+                        <div style={{ height: "800px" }} id='contact'>
+                        </div>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+                        <h1 align="center" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Subscribe</strong> Us</h1>
+                        <br />
+                        <div style={{ height: "800px" }} id='subscribe'>
+                        </div>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+                        <br />
+                        <br />
+                        <div>
+                            <ul className="list-unstyled info-text">
+                                <li>
+                                    <strong>ADDRESS</strong>
+                                </li>
+                                <li style={{ color: 'grey' }}>
+                                    191 North Wacker
+</li>
+                                <li style={{ color: 'grey' }}>
+                                    Suite 1775
+</li>
+                                <li style={{ color: 'grey' }}>
+                                    Chicago, IL 60606
+</li>
+                            </ul>
+
+                        </div>
+                        <br />
+                        <div>
+
+                            <ul class="list-unstyled info-text">
+                                <li>
+                                    <strong>PHONE</strong>
+                                </li>
+                                <li style={{ color: 'grey' }}>
+                                    +1 (312) 977-0123
+</li>
+                            </ul>
+
+                        </div>
                     </div>
                 </div>
             </div>
-
         );
     }
 
 
     componentDidMount() {
+
+        window.hbspt.forms.create({
+            portalId: "4754439",
+            formId: "827ef2b4-b36e-4c71-b627-f87c111d1839",
+            target: '#subscribe'
+        });
+
+
         window.hbspt.forms.create({
             portalId: "4754439",
             formId: "d1971e99-049b-4960-ac18-a31f5afae4a4",
-            target: '#contact',
-            onFormSubmit: function (form) {
-                var formContent = document.querySelector('.hs-form-iframe').contentDocument.querySelectorAll('.hs-form-field > label, .hs-form label')
-                // var formContent = document.querySelector('.hs-form-iframe').contentDocument.querySelectorAll('span'), i;
-
-                for (let i = 0; i < formContent.length; ++i) {
-                    formContent[i].style.color = "white";
-                }
-            },
-            onFormReady: function (form) {
-                //form.parent().addClass('borntec-contact')
-                let formFrame = window.$('.hs-form-iframe')
-                formFrame.addClass('borntec-contact')
-                formFrame.css('width', '')
-                window.$('.hs-form label').css('color', 'white')
-                window.$('.hs-form-field > label').css('color', 'white')
-                var formContent = document.querySelector('.hs-form-iframe').contentDocument.querySelectorAll('.hs-form-field > label, .hs-form label')
-                var formContent = document.querySelector('.hs-form-iframe').contentDocument.querySelectorAll('span'), i;
-
-                for (let i = 0; i < formContent.length; ++i) {
-                    formContent[i].style.color = "white";
-                }
-
-                var formContent = document.querySelector('.hs-form-iframe').contentDocument.querySelectorAll('label'), i;
-
-                for (i = 0; i < formContent.length; ++i) {
-                    formContent[i].style.color = "white";
-                }
-            }
+            target: '#contact'
         })
 
         // const s = document.createElement('script');

@@ -19,9 +19,6 @@ class NewsFeed extends Component {
 
 
     render() {
-        
-    
-        console.log(this.state)
         let posts = this.state.posts && this.state.posts.map((d, i) => <li key={i}><Link to={`/article/${d.id}`}>{d.title.rendered}</Link></li>)
         return (
             <div>
