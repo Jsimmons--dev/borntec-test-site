@@ -9,7 +9,7 @@ export class Solutions extends Component {
 
     componentDidMount() {
         if (this.props.location && this.props.location.hash !== "") {
-            this.props.history.go(0)
+            //this.props.history.go(0)
             document.querySelector(this.props.location.hash).scrollIntoView()
         }
     }

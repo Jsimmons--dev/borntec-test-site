@@ -13,7 +13,7 @@ class Contact extends Component {
                 <br />
                 <br />
                 <br />
-                <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+                <div className='contact-container' style={{ display: 'flex', justifyContent: 'space-around' }}>
                     <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
                         <h1 align="center" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Contact</strong> Us</h1>
                         <br />
@@ -26,7 +26,7 @@ class Contact extends Component {
                         <div style={{ height: "800px" }} id='subscribe'>
                         </div>
                     </div>
-                    <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+                    <div className='contact-hidden-sm' style={{ alignItems: 'center', flexDirection: 'column' }}>
                         <br />
                         <br />
                         <div>
