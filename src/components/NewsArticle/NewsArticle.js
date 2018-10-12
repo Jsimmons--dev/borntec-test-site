@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import * as WPAPI from 'wpapi'
 
 class NewsArticle extends Component {
+    
 
     constructor(props){
         super(props)
