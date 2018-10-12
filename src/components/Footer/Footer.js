@@ -11,8 +11,6 @@ export class Footer extends Component {
                 <div class="container-fluid text-center text-md-left">
 
                     <div class="row">
-                        <hr class="clearfix w-100 d-md-none pb-3" />
-
                         <div class="col-md-2 mb-md-0 mb-2">
 
                             <ul align='center' class="list-unstyled">
