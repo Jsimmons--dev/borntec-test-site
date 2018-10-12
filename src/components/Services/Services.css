@@ -1,0 +1,13 @@
+@media only screen and (max-width: 767px)  {
+    .services-header {
+      background: url(../../bundled-assets/girlserver_small.jpg) no-repeat center center;
+      background-size: cover;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .services-header {
+      background: url(../../bundled-assets/girlserver.jpg) no-repeat center center;
+      background-size: cover;
+    }
+  }
