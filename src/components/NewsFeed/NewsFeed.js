@@ -21,7 +21,7 @@ class NewsFeed extends Component {
         let posts = this.state.posts && this.state.posts.slice(0,5).map((d, i) => <li style={{margin:'5px'}} key={i}><Link style={{ color: "white" }} to={`/article/${d.id}`} dangerouslySetInnerHTML={{__html:`<i class="fas fa-list-alt"></i> <span style='font-size:20px'>${d.title.rendered}</span> <span style='font-size:12px'> ${new Date(d.date).toDateString()}</span> `}}></Link><hr style={{width:'100%'}}/></li>)
         return (
             <div>
-                <h1 align="center" style={{ color: 'white' }}> STAY <strong style={{ color: 'dodgerblue' }}>UP TO DATE</strong> WITH RECENT <strong style={{ color: 'dodgerblue' }}>NEWS</strong></h1>
+                <h2 align="center" style={{ color: 'white' }}> STAY <strong style={{ color: 'dodgerblue' }}>UP TO DATE</strong> WITH RECENT <strong style={{ color: 'dodgerblue' }}>NEWS</strong></h2>
                 <br />
                 <br />
                 <div style={{ display: 'flex', justifyContent:'center' }}>
