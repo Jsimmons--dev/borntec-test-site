@@ -38,7 +38,7 @@ class NewsArticle extends Component {
         return (
             <div>
                 <div className="container-fluid jumbotron-fluid news-article-header" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/comms.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
-                    <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">BornTec News</h1>
+                    <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">BornTec <strong style={{color:'dodgerblue'}}>News</strong></h1>
                 </div>
                 <div style={{display:'flex', flexDirection:'column', alignItems:'center'}} ref={this.progressRef} >
                     <br />
