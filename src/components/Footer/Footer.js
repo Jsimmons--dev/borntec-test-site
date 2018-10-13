@@ -79,7 +79,7 @@ export class Footer extends Component {
 
                             <div class="list-unstyled" style={{display:'flex', alignItems:'center', flexDirection:'column'}}>
                                 <div>
-                                    <strong>MEDIA</strong>
+                                    <strong>SOCIAL MEDIA</strong>
                                 </div>
                                 <div style={{ display: 'flex', justifyContent:'space-around'}}>
                                     <div style={{ color: 'grey', padding:'5px' }}>

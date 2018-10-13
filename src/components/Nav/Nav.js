@@ -19,7 +19,6 @@ export class Nav extends Component {
                     </div>
                     <div class="collapse navbar-collapse container-fluid navbar-controller">
                         <ul class="navbar-nav ml-auto list-inline">
-                            <Link to='/' className='nav-link text-white'>Home</Link>
                             <Link to='/solutions' className='nav-link nav-box text-white list-inline-item'>Software Solutions</Link>
                             <Link to='/services' className='nav-link text-white list-inline-item'>Colocation</Link>
                             <li className="nav-item dropdown text-white">
