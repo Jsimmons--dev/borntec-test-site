@@ -25,7 +25,7 @@ export class Solutions extends Component {
 
                     <JumboImage title={'Compliance and Monitoring'}
                         id={'crosscheck'}
-                        desc={'Cross Check'}
+                        desc={'CrossCheck™'}
                         color={theme.primaryColor1}
                         className={'desc-text lead'}
                         list={[
@@ -37,12 +37,12 @@ export class Solutions extends Component {
                     <hr style={{ width: '80%' }} />
                         
 
-                    <JumboImage title={'Trade Blotter'}
+                    <JumboImage title={'Global Order Book'}
                         reverse={true}
-                        id={'trac'}
+                        id={'TraC™'}
                         color={theme.primaryColor1}
                         className={'desc-text lead'}
-                        desc={'Real-Time Trade Blotter Across All Vendors/Exchanges'}
+                        desc={'TraC™'}
                         list={[
                             ['Cost Effective Terminals for Risk & Compliance', 'TraC is intuitive and easy to use for non-trading personnel'],
                             ['Single Screen, Rapid Access to All Order Flow', 'Navigate one application for worldwide order flow', 'Easily search orders by any field', 'View and cancel orders', 'Export and download order flow detail'],
@@ -52,9 +52,9 @@ export class Solutions extends Component {
                     <hr style={{ width: '80%' }} />
 
                     <JumboImage title={'Care Orders'}
-                        id={'core'}
+                        id={'CORE™'}
                         color={theme.primaryColor1}
-                        desc={'Care Order STP Between Clients and Brokers'}
+                        desc={'CORE™'}
                         listTop={'Client-Broker FIX Routing for Care Orders'}
                         list={[['Client-Broker FIX Routing for Care Orders', 'SaaS deployment', 'Full STP for clients', 'Brokers execute away or via DMA', 'Many OMS’s pre-certified']]}
                         image={'./assets/core_feature.jpg'} />
@@ -62,9 +62,9 @@ export class Solutions extends Component {
 
                     <JumboImage title={'Trade Flow Distribution'}
                         reverse={true}
-                        id={'jetconnect'}
+                        id={'JetConnect™'}
                         color={theme.primaryColor1}
-                        desc={'SaaS Real-Time Trade Flow Distribution'}
+                        desc={'JetConnect™'}
                         list={[
                             ['Flexibility', 'Production ready in days to weeks', 'Multi-Asset, Multi-Market Trade Flow', 'Easy counterparty connectivity', '30+ API’s plug-and-play'],
                             ['Consolidation', 'Rapid DMA/FIX Integrations with easy normalization and transformation', 'Central hub for all trade flow', 'Trade reporting in flexible formats via email/sftp'],

@@ -20,8 +20,7 @@ export class Nav extends Component {
                     <div class="collapse navbar-collapse container-fluid navbar-controller">
                         <ul class="navbar-nav ml-auto list-inline">
                             <Link to='/' className='nav-link text-white'>Home</Link>
-                            <Link to='/about' className='nav-link text-white list-inline-item'>About Us</Link>
-                            <Link to='/solutions' className='nav-link nav-box text-white list-inline-item'>Our Solutions</Link>
+                            <Link to='/solutions' className='nav-link nav-box text-white list-inline-item'>Software Solutions</Link>
                             <Link to='/services' className='nav-link text-white list-inline-item'>Colocation</Link>
                             <li className="nav-item dropdown text-white">
                                 <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="clientServicesDropdown" className='nav-link text-white list-inline-item dropdown-toggle'>Client Services</a>
@@ -31,6 +30,7 @@ export class Nav extends Component {
                                     <Link to='/clients/#proptrading' className="dropdown-item text-white dropdown-background">Proprietary Trading Groups</Link>
                                 </div>
                             </li>
+                            <Link to='/about' className='nav-link text-white list-inline-item'>About Us</Link>
                             <Link to='/contact' className='nav-link text-white list-inline-item'>Contact Us</Link>
                         </ul>
                     </div>

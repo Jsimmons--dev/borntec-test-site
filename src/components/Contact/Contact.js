@@ -21,11 +21,7 @@ class Contact extends Component {
                         </div>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
-<<<<<<< HEAD
-                        <h1 align="center" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Subscribe</strong></h1>
-=======
                         <h1 align="center" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Subscribe To Our </strong>News</h1>
->>>>>>> 21e540366a4fe21ff3c4c84df1f3e1aff7bb55b9
                         <br />
                         <div style={{ height: "800px" }} id='subscribe'>
                         </div>
