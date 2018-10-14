@@ -11,7 +11,7 @@ export class Footer extends Component {
                 <div class="container-fluid text-center text-md-left">
 
                     <div class="row">
-                        <div class="col-md-2 mb-md-0 mb-2">
+                        <div class="offset-md-1 col-md-2 mb-md-0 mb-2">
 
                             <ul align='center' class="list-unstyled">
                                 <li>
@@ -93,26 +93,10 @@ export class Footer extends Component {
                             </div>
 
                         </div>
-                        <div class="col-md-2 mb-md-0 mb-2">
-
-                            <div class="list-unstyled" style={{display:'flex', alignItems:'center', flexDirection:'column'}}>
-                                <div>
-                                    <strong>LOGIN</strong>
-                                </div>
-                                <div style={{ display: 'flex', justifyContent:'space-around'}}>
-                                    <div style={{color:'grey', padding:'5px' }}>
-                                        <a href="https://www.borntec.com/wp-login.php" ><img width='41px' src='./assets/icons/lock.svg'></img></a> 
-                                    </div>
-                                    
-                                </div>
-                            </div>
-
-                        </div>
                     </div>
-
                 </div>
 
-                <div class="footer-copyright text-center py-3 text-light"><strong>© 2018 Copyright BornTec</strong></div>
+                <div class="footer-copyright text-center py-3 text-light"><strong>© 2018 Copyright BornTec <a href="https://www.borntec.com/login" ><i className='fas fa-lock'></i></a></strong></div>
 
             </footer>
         );

@@ -16,7 +16,7 @@ class SolutionsOverview extends Component {
                 <br />
                 <br />
                 <br />
-                <h2 align="center" style={{ color: theme.primaryColor2, flex: 1 }}><strong style={{ color: theme.textColor }} >TRADING RISK MANAGEMENT</strong> SOLUTIONS</h2>
+                <h2 align="center" className='headers-mobile' style={{ color: theme.primaryColor2, flex: 1 }}><strong style={{ color: theme.textColor }} >TRADING RISK MANAGEMENT</strong> SOLUTIONS</h2>
                 <br />
                 <p align="center" className='desc-text'><strong >CrossCheck™ is our flagship <strong style={{color:'dodgerblue'}}>Compliance and Monitoring system</strong> for MiFID II RTS 6, CFTC and MAR, providing realtime <strong style={{color:'dodgerblue'}}>monitoring and alerting</strong> for algorithmic and DEA trading, transaction reporting and more</strong></p>
                 <br />

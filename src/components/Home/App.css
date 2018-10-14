@@ -137,3 +137,28 @@ body {
     font-size:25px;
   }
 }
+
+@media only screen and (max-width: 767px)  {
+  .news-container {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .news-container {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 767px)  {
+  .headers-mobile {
+    font-size:30px
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .headers-mobile {
+    font-size:45px
+  }
+}
