@@ -17,7 +17,7 @@ class JumboImage extends Component {
                     <div style={{ flex: '1', padding: '20px' }}>
                         <div>
 
-                            <ul>
+                            <ul style={{listStylePosition: 'inside'}}>
                                 {
                                     this.props.list.map(list => {
                                         return list.map((li, i) => i === 0 ? (<h5 style={{ color: this.props.color }}><br/><br/>{li}</h5>) :
