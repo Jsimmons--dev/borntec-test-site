@@ -13,7 +13,6 @@ class NewsFeed extends Component {
         wp.posts().then((data) => {
             this.setState((state, props) => ({ posts: data }))
         }).catch(function (err) {
-            console.log(err)
         });
         window.hbspt.forms.create({
             portalId: "4754439",
@@ -24,7 +23,6 @@ class NewsFeed extends Component {
 
     render() {
         let posts = this.state.posts && this.state.posts.slice(0, 5).map((d, i) => <li style={{ margin: '5px' }} key={i}><Link style={{ color: "white" }} to={`/article/${d.id}`} dangerouslySetInnerHTML={{ __html: `<i class="fas fa-list-alt"></i> <span style='font-size:20px'>${d.title.rendered}</span> <span style='font-size:12px'> ${new Date(d.date).toDateString()}</span> ` }}></Link><hr style={{ width: '100%' }} /></li>)
-        console.log(posts)
         return (
             <div>
                 <h2 align="center" style={{ color: 'white' }}> STAY <strong style={{ color: 'dodgerblue' }}>UP TO DATE</strong> WITH RECENT <strong style={{ color: 'dodgerblue' }}>NEWS</strong></h2>

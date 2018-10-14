@@ -1,4 +1,3 @@
-import $ from 'jquery';
 import React, { Component } from 'react';
 import { theme } from '../../constants';
 import { Link } from 'react-router-dom';
@@ -6,14 +5,14 @@ import { Link } from 'react-router-dom';
 export class Footer extends Component {
     render() {
         return (
-            <footer style={{ backgroundColor: 'rgb(35,35,35)', padding: '0px' }} class="page-footer font-small pt-4">
+            <footer style={{ backgroundColor: 'rgb(35,35,35)', padding: '0px' }} className="page-footer font-small pt-4">
 
-                <div class="container-fluid text-center text-md-left">
+                <div className="container-fluid text-center text-md-left">
 
-                    <div class="row">
-                        <div class="offset-md-1 col-md-2 mb-md-0 mb-2">
+                    <div className="row">
+                        <div className="offset-md-1 col-md-2 mb-md-0 mb-2">
 
-                            <ul align='center' class="list-unstyled">
+                            <ul align='center' className="list-unstyled">
                                 <li>
                                     <strong>COMPANY</strong>
                                 </li>
@@ -32,9 +31,9 @@ export class Footer extends Component {
                             </ul>
 
                         </div>
-                        <div class="col-md-2 mb-md-0 mb-2">
+                        <div className="col-md-2 mb-md-0 mb-2">
 
-                            <ul align='center' class="list-unstyled">
+                            <ul align='center' className="list-unstyled">
                                 <li>
                                     <strong>ADDRESS</strong>
                                 </li>
@@ -50,9 +49,9 @@ export class Footer extends Component {
                             </ul>
 
                         </div>
-                        <div class="col-md-2 mb-md-0 mb-2">
+                        <div className="col-md-2 mb-md-0 mb-2">
 
-                            <ul align='center' class="list-unstyled">
+                            <ul align='center' className="list-unstyled">
                                 <li>
                                     <strong>PHONE</strong>
                                 </li>
@@ -63,9 +62,9 @@ export class Footer extends Component {
 
                         </div>
 
-                        <div class="col-md-2 mb-md-0 mb-2">
+                        <div className="col-md-2 mb-md-0 mb-2">
 
-                            <ul align='center' class="list-unstyled">
+                            <ul align='center' className="list-unstyled">
                                 <li>
                                     <strong>EMAIL</strong>
                                 </li>
@@ -75,9 +74,9 @@ export class Footer extends Component {
                             </ul>
 
                         </div>
-                        <div class="col-md-2 mb-md-0 mb-2">
+                        <div className="col-md-2 mb-md-0 mb-2">
 
-                            <div class="list-unstyled" style={{display:'flex', alignItems:'center', flexDirection:'column'}}>
+                            <div className="list-unstyled" style={{display:'flex', alignItems:'center', flexDirection:'column'}}>
                                 <div>
                                     <strong>SOCIAL MEDIA</strong>
                                 </div>
@@ -96,7 +95,7 @@ export class Footer extends Component {
                     </div>
                 </div>
 
-                <div class="footer-copyright text-center py-3 text-light"><strong>© 2018 Copyright BornTec <a href="https://www.borntec.com/login" ><i className='fas fa-lock'></i></a></strong></div>
+                <div className="footer-copyright text-center py-3 text-light"><strong>© 2018 Copyright BornTec <a href="https://www.borntec.com/login" ><i className='fas fa-lock'></i></a></strong></div>
 
             </footer>
         );

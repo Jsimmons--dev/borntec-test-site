@@ -9,7 +9,6 @@ import { theme } from '../../constants'
 
 class App extends Component {
   render() {
-    console.log(this.props)
     return (
       <div style={{ color:theme.textColor, backgroundColor: "rgb(30, 30, 30)" }} className="App">
         <MainPageHeader />

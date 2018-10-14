@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from '../Header/Header'
 import './Solutions.css'
 import { theme } from '../../constants'
 import JumboImage from './JumboImage'
