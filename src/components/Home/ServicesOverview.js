@@ -12,7 +12,7 @@ class ServicesOverview extends Component {
                 <br />
                 <br />
                 <br />
-                <h2 align="center" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>GLOBAL INFRASTRUCTURE</strong> SERVICES</h2>
+                <h2 align="center" className='headers-mobile' style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>GLOBAL INFRASTRUCTURE</strong> SERVICES</h2>
                 <br />
                 <p align="center" className='desc-text'>Our private network provides <strong style={{color:'dodgerblue'}}>direct connectivity</strong> to global market data and exchange venues for <strong style={{color:'dodgerblue'}}>professional traders</strong></p>
                 <br />
