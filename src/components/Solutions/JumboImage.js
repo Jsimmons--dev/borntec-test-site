@@ -8,6 +8,7 @@ class JumboImage extends Component {
         return (
             <div id={this.props.id} style={{ backgroundColor: "rgb(30, 30, 30" }} class="jumbotron jumbotron-fluid">
                 <div align='center' class="container">
+                
                     <h1 class="display-4" style={{ color: this.props.color }}>{this.props.title}</h1>
                     <p className='desc-text'>{this.props.desc}</p>
                 </div>
@@ -19,7 +20,7 @@ class JumboImage extends Component {
                             <ul>
                                 {
                                     this.props.list.map(list => {
-                                        return list.map((li, i) => i === 0 ? (<h5 style={{ color: this.props.color }}>{li}</h5>) :
+                                        return list.map((li, i) => i === 0 ? (<h5 style={{ color: this.props.color }}><br/><br/>{li}</h5>) :
                                             (<li>{li}</li>))
                                     })
 
