@@ -28,7 +28,7 @@ class JumboImage extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div style={{ flex: '1', minHeight: '390px', backgroundImage: `url("${this.props.image}")`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}></div>
+                    <div style={{ flex: '1', minHeight: '490px', backgroundImage: `url("${this.props.image}")`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}></div>
                 </div>
             </div>
         )

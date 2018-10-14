@@ -69,7 +69,7 @@ export class Solutions extends Component {
                             ['Flexibility', 'Production ready in days to weeks', 'Multi-Asset, Multi-Market Trade Flow', 'Easy counterparty connectivity', '30+ API’s plug-and-play'],
                             ['Consolidation', 'Rapid DMA/FIX Integrations with easy normalization and transformation', 'Central hub for all trade flow', 'Trade reporting in flexible formats via email/sftp'],
                         ]}
-                        image={'./assets/JCfeature.jpg'} />
+                        image={'./assets/JCfeature_sm.jpg'} />
                 </div>
             </div >
         );
