@@ -13,20 +13,14 @@ class Contact extends Component {
                 <br />
                 <br />
                 <br />
-                <div className='contact-container' style={{ display: 'flex', justifyContent: 'space-around' }}>
+                <div className='contact-container' style={{ display: 'flex', justifyContent: 'center' }}>
                     <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
                         <h1 align="center" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Contact</strong> Us</h1>
                         <br />
-                        <div style={{ height: "800px" }} id='contact'>
+                        <div className='contact-mobile' style={{ height: "800px" }} id='contact'>
                         </div>
                     </div>
-                    <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
-                        <h1 align="center" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Subscribe To Our </strong>News</h1>
-                        <br />
-                        <div style={{ height: "800px" }} id='subscribe'>
-                        </div>
-                    </div>
-                    <div className='contact-hidden-sm' style={{ alignItems: 'center', flexDirection: 'column' }}>
+                    <div className='contact-hidden-sm' style={{ margin:'50px', alignItems: 'center', flexDirection: 'column' }}>
                         <br />
                         <br />
                         <div>
@@ -67,26 +61,14 @@ class Contact extends Component {
 
 
     componentDidMount() {
-
-        window.hbspt.forms.create({
-            portalId: "4754439",
-            formId: "827ef2b4-b36e-4c71-b627-f87c111d1839",
-            target: '#subscribe'
-        });
-
-
         window.hbspt.forms.create({
             portalId: "4754439",
             formId: "d1971e99-049b-4960-ac18-a31f5afae4a4",
-            target: '#contact'
+            target: '#contact',
+            onCreate: (form) => {
+                document.querySelector('.hs-form-iframe').classList.toggle('contact-mobile')
+            }
         })
-
-        // const s = document.createElement('script');
-        // s.type = 'text/javascript';
-        // s.async = true;
-        // s.innerHTML = "Calendly.initBadgeWidget({url: 'https://calendly.com/x', text: 'Schedule time with me', color: '#4d5055', branding: true});";
-        // this.instance.appendChild(s);
-
     }
 }
 

@@ -54,3 +54,16 @@
     display: flex;
   }
 }
+
+@media only screen and (max-width: 767px)  {
+  .contact-mobile {
+      width: 90%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-mobile {
+    width: 500px;
+  }
+}
+
