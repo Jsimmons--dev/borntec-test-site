@@ -38,7 +38,7 @@ export class Solutions extends Component {
 
                     <JumboImage title={'Global Order Book'}
                         reverse={true}
-                        id={'TraC™'}
+                        id={'trac'}
                         color={theme.primaryColor1}
                         className={'desc-text lead'}
                         desc={'TraC™'}
@@ -51,7 +51,7 @@ export class Solutions extends Component {
                     <hr style={{ width: '80%' }} />
 
                     <JumboImage title={'Care Orders'}
-                        id={'CORE™'}
+                        id={'core'}
                         color={theme.primaryColor1}
                         desc={'CORE™'}
                         listTop={'Client-Broker FIX Routing for Care Orders'}
@@ -61,7 +61,7 @@ export class Solutions extends Component {
 
                     <JumboImage title={'Trade Flow Distribution'}
                         reverse={true}
-                        id={'JetConnect™'}
+                        id={'jetconnect'}
                         color={theme.primaryColor1}
                         desc={'JetConnect™'}
                         list={[
