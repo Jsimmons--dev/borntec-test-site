@@ -8,7 +8,7 @@ export class Services extends Component {
         return (
             <div>
                 <div id='main-page-header' className="container-fluid jumbotron-fluid services-header" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center'}}  >
-                <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">Colocation</h1>
+                <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">Global Colocation Services</h1>
                 <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}>Explore how <strong>BornTec</strong> can help you optimize your <strong>trading operations</strong> in todays rapidly changing world.</h4>
             </div>
             <br/>
