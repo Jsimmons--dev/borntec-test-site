@@ -11,6 +11,7 @@ import { Services } from './components/Services/Services'
 import NewsArticle from './components/NewsArticle/NewsArticle'
 import Clients from './components/Clients/Clients'
 import About from './components/About/About'
+import Blog from './components/Blog/Blog'
 import registerServiceWorker from './registerServiceWorker'
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
 import { Nav } from './components/Nav/Nav'
@@ -33,6 +34,7 @@ ReactDOM.render((
                 <Route exact path="/clients" component={Clients} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/about" component={About} />
+                <Route exact path="/blog" component={Blog} />
                 <Route exact path="/article/:id" component={NewsArticle} />
                 <Footer />
             </div>
