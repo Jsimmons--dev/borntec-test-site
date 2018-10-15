@@ -12,7 +12,7 @@ export class Services extends Component {
                 <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}>Explore how <strong>BornTec</strong> can help you optimize your <strong>trading operations</strong> in todays rapidly changing world.</h4>
             </div>
             <br/>
-                <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
+                <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid" id={'Directmarket'}>
                 
                     <div class="container">
                         <h1 class="display-4" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Direct Market</strong> Access</h1>
@@ -29,7 +29,7 @@ export class Services extends Component {
                     </div>
                 </div>
                 <hr style={{ width: '80%' }} />
-                <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
+                <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid" id={'lowlatencytrading'}>
                     <div class="container">
                         <h1 class="display-4" style={{ color: theme.textColor }}>Low Latency <strong style={{ color: theme.primaryColor2 }}>Trading</strong></h1>
                         <h5 style={{ color: theme.primaryColor2 }}>State of the Art Architecture</h5>
@@ -45,7 +45,7 @@ export class Services extends Component {
                 <hr style={{ width: '80%' }} />
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid">
                     <div class="container">
-                        <h1 class="display-4">Managed Hosting <strong style={{ color: theme.primaryColor2 }}>Services</strong></h1>
+                        <h1 id='managedhosting' class="display-4">Managed Hosting <strong style={{ color: theme.primaryColor2 }}>Services</strong></h1>
                         <h5><strong style={{ color: theme.primaryColor2 }}>Blue Trading Systems</strong></h5>
                         <p className='desc-text lead'>Blue Trading Systems builds practical, efficient solutions to complex problems presented by today's capital markets, offering high-performance, robust trading platforms for sophisticated derivatives traders.</p>
                         <h5 style={{ color: theme.primaryColor2 }}>Trading Technologies</h5>

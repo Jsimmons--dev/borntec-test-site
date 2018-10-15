@@ -54,8 +54,8 @@ export class Footer extends Component {
                                 <li>
                                     <strong>PHONE</strong>
                                 </li>
-                                <li style={{ color: 'grey' }} href="tel:13129770123">
-                                    +1 (312) 977-0123
+                                <li style={{ color: 'grey' }}> 
+                                <a href="tel:13129770123"> +1 (312) 977-0123</a>
 </li>
                             </ul>
 
@@ -67,8 +67,8 @@ export class Footer extends Component {
                                 <li>
                                     <strong>EMAIL</strong>
                                 </li>
-                                <li style={{ color: 'grey' }}>
-                                    sales@borntec.com
+                                <li style={{ color: 'grey' }} href="mailto:sales@borntec.com">
+                                <a href='mailto:sales@borntec.com'>sales@borntec.com</a> 
 </li>
                             </ul>
 
