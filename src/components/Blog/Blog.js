@@ -12,8 +12,8 @@ class Blog extends Component {
     }
     componentDidMount() {
         var wp = new WPAPI({ endpoint: 'http://borntec.com/wp-json' });
-        wp.posts().perPage(10)
-            //.categories([113])
+        wp.posts()
+            .categories([113])
             .then((data) => {
                 this.setState((state, props) => ({ tags: this.state.tags, posts: data }))
             }).catch(function (err) {
@@ -53,7 +53,7 @@ class Blog extends Component {
                 <br />
                 <div style={{ paddingLeft: '1.25rem' }} dangerouslySetInnerHTML={{ __html: `<span style='font-size:30px'>${d.title.rendered}</span>` }}>
                 </div>
-                <span className='card-body'> {d.tags.map(d => this.state.tags[d]).join(" | ")}</span>
+                <span className='card-body'> {d.tags.map(d => this.state.tags ? this.state.tags[d] : '').join(" | ")}</span>
                 <div>
                     <div className='card-body' dangerouslySetInnerHTML={{ __html: `${d.excerpt.rendered}` }}>
                     </div>
