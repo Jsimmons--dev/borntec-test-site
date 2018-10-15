@@ -13,6 +13,7 @@ class Blog extends Component {
     componentDidMount() {
         var wp = new WPAPI({ endpoint: 'http://borntec.com/wp-json' });
         wp.posts()
+        //is this going to work with more than 10 cat 113s? may need to implement paging
             .categories([113])
             .then((data) => {
                 this.setState((state, props) => ({ tags: this.state.tags, posts: data }))

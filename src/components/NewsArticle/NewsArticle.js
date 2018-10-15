@@ -9,13 +9,33 @@ class NewsArticle extends Component {
 
     constructor(props) {
         super(props)
-        this.state = {}
+        this.state = {
+            tags: []
+        }
         this.progressRef = React.createRef()
     }
     componentDidMount() {
         var wp = new WPAPI({ endpoint: 'http://borntec.com/wp-json' });
         wp.posts().id(this.props.match.params.id).then((data) => {
-            this.setState((state, props) => ({ post: data, media:this.state.media }))
+            this.setState((state, props) => ({ post: data, media: this.state.media, tags: this.state.tags }))
+            if (this.state.featured_media) {
+                wp.media().id(this.state.post.featured_media).then((media) => {
+                    this.setState((state, props) => ({ post: this.state.post, media, tags: this.state.tags }))
+                }).catch(function (err) {
+                    console.log(err)
+                });
+            }
+
+            console.log(this.state.post.tags)
+            if (this.state.post.tags) {
+                this.state.post.tags.forEach(tagId => {
+                    wp.tags().id(tagId).then((tag) => {
+                        this.setState((state, props) => ({ post: this.state.post, media: this.state.media, tags: Array(...this.state.tags, tag.slug)}))
+                    }).catch(function (err) {
+                        console.log(err)
+                    });
+                })
+            }
         }).catch(function (err) {
             console.log(err)
         });
@@ -25,11 +45,6 @@ class NewsArticle extends Component {
         if (this.state.post) {
             var wp = new WPAPI({ endpoint: 'http://borntec.com/wp-json' });
             this.progressRef.current.style.display = 'none'
-            wp.media().id(this.state.post.featured_media).then((media) => {
-                this.setState((state, props) => ({ post: this.state.post, media }))
-            }).catch(function (err) {
-                console.log(err)
-            });
         }
         let node = ReactDOM.findDOMNode(this)
         if (node.querySelector('img') !== null) {
@@ -41,7 +56,7 @@ class NewsArticle extends Component {
 
     render() {
         console.log(this.state)
-        
+
         let post = <span></span>//{ __html: '' };
         if (this.state.post !== undefined) {
             let d = this.state.post
@@ -49,13 +64,13 @@ class NewsArticle extends Component {
 
 
                 <div className='card-body' style={{ width: 'auto', height: '496px', overflow: 'hidden' }}>
-                    <img src={this.state.media ? this.state.media.guid.rendered : ''} width="1000px" style={{}}></img>
+                    <img src={this.state.media ? this.state.media.guid.rendered : '4 black_crop.png'} width="1000px" style={{}}></img>
                 </div>
                 <p align='right' style={{ padding: '10px', fontSize: '12px', paddingLeft: '1.25rem' }}>{new Date(d.date).toDateString()}</p>
                 <br />
                 <div style={{ paddingLeft: '1.25rem' }} dangerouslySetInnerHTML={{ __html: `<span style='font-size:30px'>${d.title.rendered}</span>` }}>
                 </div>
-                <span className='card-body'> {d.tags.map(d => this.state.tags[d]).join(" | ")}</span>
+                <span className='card-body'> {this.state.tags.join(" | ")}</span>
                 <div>
                     <div className='card-body' dangerouslySetInnerHTML={{ __html: `${d.content.rendered}` }}>
                     </div>
