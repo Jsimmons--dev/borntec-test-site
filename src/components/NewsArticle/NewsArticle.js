@@ -26,7 +26,6 @@ class NewsArticle extends Component {
                 });
             }
 
-            console.log(this.state.post.tags)
             if (this.state.post.tags) {
                 this.state.post.tags.forEach(tagId => {
                     wp.tags().id(tagId).then((tag) => {
@@ -55,7 +54,6 @@ class NewsArticle extends Component {
 
 
     render() {
-        console.log(this.state)
 
         let post = <span></span>//{ __html: '' };
         if (this.state.post !== undefined) {

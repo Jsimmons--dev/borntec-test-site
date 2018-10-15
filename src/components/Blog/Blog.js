@@ -19,11 +19,11 @@ class Blog extends Component {
                 this.setState((state, props) => ({ tags: this.state.tags, posts: data }))
             }).catch(function (err) {
             });
+        //will this work with more than 100 tags? may need to implement paging or more specific tag getting
         wp.tags().perPage(100)
             .then((data) => {
                 let tags = {}
                 data.forEach(tag => tags[tag.id] = tag.slug)
-                console.log(tags)
                 this.setState((state, props) => ({ tags, posts: this.state.posts }))
             }).catch(function (err) {
             });
