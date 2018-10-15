@@ -16,12 +16,11 @@ export class Footer extends Component {
                                 <li>
                                     <strong>COMPANY</strong>
                                 </li>
-                                <li style={{ color: 'grey' }}>
-                                    news
+                                <Link to='/blog'>
+                                    <li style={{ color: 'grey' }}>
+                                        blog
                                 </li>
-                                <li style={{ color: 'grey' }}>
-                                    blog
-                                </li>
+                                </Link>
                                 <Link to='/contact'>
                                     <li style={{ color: theme.primaryColor2 }}>
                                         contact us
@@ -76,18 +75,18 @@ export class Footer extends Component {
                         </div>
                         <div className="col-md-2 mb-md-0 mb-2">
 
-                            <div className="list-unstyled" style={{display:'flex', alignItems:'center', flexDirection:'column'}}>
+                            <div className="list-unstyled" style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
                                 <div>
                                     <strong>SOCIAL MEDIA</strong>
                                 </div>
-                                <div style={{ display: 'flex', justifyContent:'space-around'}}>
-                                    <div style={{ color: 'grey', padding:'5px' }}>
+                                <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+                                    <div style={{ color: 'grey', padding: '5px' }}>
                                         <a href='https://www.linkedin.com/company/born-technology'><img src='./assets/icons/In-White-41px-R.png'></img></a>
                                     </div>
-                                    <div style={{ color: 'grey', padding:'5px'  }}>
+                                    <div style={{ color: 'grey', padding: '5px' }}>
                                         <a href="https://twitter.com/borntec"><img width='51px' src='./assets/icons/Twitter_Logo_WhiteOnImage.svg'></img></a>
                                     </div>
-                                    
+
                                 </div>
                             </div>
 
