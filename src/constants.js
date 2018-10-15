@@ -7,7 +7,8 @@ let light = {
 let dark = {
     primaryColor1: 'dodgerblue',
     primaryColor2: 'dodgerBlue',
-    textColor: 'white'
+    textColor: 'white',
+    background: 'rgb(30,30,30)'
 }
 
 export let theme = dark

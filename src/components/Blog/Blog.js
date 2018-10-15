@@ -15,7 +15,7 @@ class Blog extends Component {
         wp.posts().perPage(10)
             //.categories([113])
             .then((data) => {
-                this.setState((state, props) => ({ tags:this.state.tags, posts: data }))
+                this.setState((state, props) => ({ tags: this.state.tags, posts: data }))
             }).catch(function (err) {
             });
         wp.tags().perPage(100)
@@ -35,34 +35,52 @@ class Blog extends Component {
     }
 
     render() {
-        console.log(this.state)
-        let posts = this.state.posts && this.state.posts.map((d, i) =>
-            <div className='card bg-dark' style={{ width: '500px', margin: '5px' }} key={i}>
-                <div className='card-body' style={{ width: '100%', height: '196px' }}></div>
-                <p className='card-body' style={{ fontSize: '12px' }}>{new Date(d.date).toDateString()}</p>
-                <span className='card-body'>{d.tags.map(d => this.state.tags[d]).join(" | ")}</span>
-                <div className='card-body' dangerouslySetInnerHTML={{ __html: `<span style='font-size:30px'>${d.title.rendered}</span>` }}>
+        var wp = new WPAPI({ endpoint: 'http://borntec.com/wp-json' });
+        let posts = this.state.posts && this.state.posts.map((d, i) => {
+            if (d.featured_media) {
+                wp.media().id(d.featured_media)
+                    .then((data) => {
+                        this.setState(Object.assign({}, this.state, { ["media" + '_' + d.featured_media]: data.guid.rendered }))
+                    }).catch(function (err) {
+                    });
+            }
+
+            return (<div className='card' style={{ background: theme.background, border: 'none', width: '520px', margin: '5px' }} key={i}>
+                <div className='card-body' style={{ width: 'auto', height: '196px', overflow: 'hidden' }}>
+                    <img src={this.state["media"+"_"+d.featured_media] || '4 black_crop.png'} width="520px" style={{}}></img>
                 </div>
+                <p align='right' style={{ padding: '10px', fontSize: '12px', paddingLeft: '1.25rem' }}>{new Date(d.date).toDateString()}</p>
+                <br />
+                <div style={{ paddingLeft: '1.25rem' }} dangerouslySetInnerHTML={{ __html: `<span style='font-size:30px'>${d.title.rendered}</span>` }}>
+                </div>
+                <span className='card-body'> {d.tags.map(d => this.state.tags[d]).join(" | ")}</span>
                 <div>
                     <div className='card-body' dangerouslySetInnerHTML={{ __html: `${d.excerpt.rendered}` }}>
                     </div>
-                    <Link className='card-body' to={`/article/${d.id}`}><span style={{ color: theme.primaryColor2 }} className='card-body'>Read More...</span></Link>
+                    <Link className='card-body' to={`/article/${d.id}`}><button style={{ cursor: 'pointer', padding: '10px 14px', background: 'inherit', border: '2px solid ' + theme.primaryColor2, color: theme.textColor }} className='card-body'>Read more</button></Link>
                 </div>
+                <br />
+                <br />
             </div >)
+        })
 
         return (
             <div>
-                <div className="container-fluid jumbotron-fluid news-article-header" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/comms.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
-                    <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">BornTec <strong style={{ color: 'dodgerblue' }}>Blog</strong></h1>
-                </div>
+                <br />
+                <br />
+                <br />
+                <h1 style={{ fontFamily: 'Maven Pro' }} className="display-3 container">BornTec <strong style={{ color: 'dodgerblue' }}>Blog</strong></h1>
+                <p style={{ fontFamily: 'Maven Pro' }} className="h5 container">Our experts offer their best advice and insights to keep you up to date with what is happening at BornTec</p>
                 <div style={{ display: 'flex', justifyContent: 'space-around' }}>
                     <div style={{ width: '100%' }}>
                         <br />
                         <br />
-                        <div style={{ display: 'flex', }} ref={this.progressRef} >
-                            <br />
-                            <progress className="pure-material-progress-circular" />
-                            <span style={{ fontSize: '30px' }}>Please Wait...</span>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <div style={{ display: 'flex' }} ref={this.progressRef} >
+                                <br />
+                                <progress className="pure-material-progress-circular" />
+                                <span style={{ fontSize: '30px' }}>Please Wait...</span>
+                            </div>
                         </div>
                         <div className='container' style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
                             {posts}
