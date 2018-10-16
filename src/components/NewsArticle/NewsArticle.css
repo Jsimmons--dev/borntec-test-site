@@ -10,6 +10,31 @@
     }
   }
 
+  @media only screen and (max-width: 767px)  {
+    .news-width {
+      width:100%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .news-width {
+      width:1000px;
+    }
+  }
+
+  @media only screen and (max-width: 767px)  {
+    .news-height {
+      height:100px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .news-height {
+      height:200px;
+    }
+  }
+
+
   .pure-material-progress-circular {
     -webkit-appearance: none;
     -moz-appearance: none;

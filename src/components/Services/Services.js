@@ -3,7 +3,7 @@ import { theme } from '../../constants'
 import './Services.css'
 
 export class Services extends Component {
-    
+
     componentDidMount() {
         if (this.props.location && this.props.location.hash !== "") {
             document.querySelector(this.props.location.hash).scrollIntoView()
@@ -19,7 +19,7 @@ export class Services extends Component {
                 </div>
                 <br />
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid" id={'directmarket'}>
-
+                    <br />
                     <div class="container">
                         <h1 class="display-4" style={{ color: theme.primaryColor2 }}><strong style={{ color: theme.textColor }}>Direct Market</strong> Access</h1>
                         <h5 style={{ color: theme.primaryColor2 }}>Closest Proximity to Exchange Matching Engine</h5>
@@ -36,6 +36,7 @@ export class Services extends Component {
                 </div>
                 <hr style={{ width: '80%' }} />
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid" id={'lowlatencytrading'}>
+                    <br />
                     <div class="container">
                         <h1 class="display-4" style={{ color: theme.textColor }}>Low Latency <strong style={{ color: theme.primaryColor2 }}>Trading</strong></h1>
                         <h5 style={{ color: theme.primaryColor2 }}>State of the Art Architecture</h5>
@@ -50,6 +51,7 @@ export class Services extends Component {
                 </div>
                 <hr style={{ width: '80%' }} />
                 <div style={{ backgroundColor: "rgb(30, 30, 30)" }} class="jumbotron jumbotron-fluid" id='managedhosting'>
+                    <br />
                     <div class="container">
                         <h1 class="display-4">Managed Hosting <strong style={{ color: theme.primaryColor2 }}>Services</strong></h1>
                         <h5><strong style={{ color: theme.primaryColor2 }}>Blue Trading Systems</strong></h5>

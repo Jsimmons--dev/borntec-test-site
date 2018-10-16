@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import * as WPAPI from 'wpapi'
 import { Link } from 'react-router-dom';
 import { theme } from '../../constants'
+import './Blog.css'
 
 class Blog extends Component {
 
@@ -47,8 +48,8 @@ class Blog extends Component {
             }
 
             return (<div className='card' style={{ background: theme.background, border: 'none', width: '520px', margin: '5px' }} key={i}>
-                <div className='card-body' style={{ width: 'auto', height: '196px', overflow: 'hidden' }}>
-                    <img src={this.state["media"+"_"+d.featured_media] || '4 black_crop.png'} width="520px" style={{}}></img>
+                <div className='card-body blog-height' style={{ width: 'auto', overflow: 'hidden' }}>
+                    <img className='blog-width' src={this.state["media"+"_"+d.featured_media] || '4 black_crop.png'} style={{}}></img>
                 </div>
                 <p align='right' style={{ padding: '10px', fontSize: '12px', paddingLeft: '1.25rem' }}>{new Date(d.date).toDateString()}</p>
                 <br />

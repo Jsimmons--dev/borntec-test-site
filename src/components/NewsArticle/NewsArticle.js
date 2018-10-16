@@ -48,7 +48,7 @@ class NewsArticle extends Component {
         let node = ReactDOM.findDOMNode(this)
         if (node.querySelector('img') !== null) {
             node.querySelector('img').style.float = 'left'
-            node.querySelector('img').style.margin = '30px'
+            //node.querySelector('img').style.margin = '30px'
         }
     }
 
@@ -61,8 +61,8 @@ class NewsArticle extends Component {
             post = (<div>
 
 
-                <div className='card-body' style={{ width: 'auto', height: '496px', overflow: 'hidden' }}>
-                    <img src={this.state.media ? this.state.media.guid.rendered : '4 black_crop.png'} width="1000px" style={{}}></img>
+                <div className='card-body news-height' style={{ width: 'auto', overflow: 'hidden' }}>
+                    <img className='news-width' src={this.state.media ? this.state.media.guid.rendered : '4 black_crop.png'} style={{}}></img>
                 </div>
                 <p align='right' style={{ padding: '10px', fontSize: '12px', paddingLeft: '1.25rem' }}>{new Date(d.date).toDateString()}</p>
                 <br />
