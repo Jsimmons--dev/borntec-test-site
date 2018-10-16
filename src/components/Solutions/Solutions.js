@@ -34,8 +34,17 @@ export class Solutions extends Component {
                         ]}
                         image={'./assets/crosscheck2.jpg'} />
                     <hr style={{ width: '80%' }} />
-                        
 
+                    <JumboImage title={'Trade Flow Distribution'}
+                        reverse={true}
+                        id={'jetconnect'}
+                        color={theme.primaryColor1}
+                        desc={'JetConnect™'}
+                        list={[
+                            ['Flexibility', 'Production ready in days to weeks', 'Multi-Asset, Multi-Market Trade Flow', 'Easy counterparty connectivity', '30+ API’s plug-and-play'],
+                            ['Consolidation', 'Rapid DMA/FIX Integrations with easy normalization and transformation', 'Central hub for all trade flow', 'Trade reporting in flexible formats via email/sftp'],
+                        ]}
+                        image={'./assets/JCfeature_sm.jpg'} />
                     <JumboImage title={'Global Order Book'}
                         reverse={true}
                         id={'trac'}
@@ -59,16 +68,7 @@ export class Solutions extends Component {
                         image={'./assets/core_feature.jpg'} />
                     <hr style={{ width: '80%' }} />
 
-                    <JumboImage title={'Trade Flow Distribution'}
-                        reverse={true}
-                        id={'jetconnect'}
-                        color={theme.primaryColor1}
-                        desc={'JetConnect™'}
-                        list={[
-                            ['Flexibility', 'Production ready in days to weeks', 'Multi-Asset, Multi-Market Trade Flow', 'Easy counterparty connectivity', '30+ API’s plug-and-play'],
-                            ['Consolidation', 'Rapid DMA/FIX Integrations with easy normalization and transformation', 'Central hub for all trade flow', 'Trade reporting in flexible formats via email/sftp'],
-                        ]}
-                        image={'./assets/JCfeature_sm.jpg'} />
+
                 </div>
             </div >
         );

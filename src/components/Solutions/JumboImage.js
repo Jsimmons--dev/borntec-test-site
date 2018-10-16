@@ -7,6 +7,7 @@ class JumboImage extends Component {
         return (
             <div id={this.props.id} style={{ backgroundColor: "rgb(30, 30, 30" }} className="jumbotron jumbotron-fluid">
                 <br />
+                <br />
                 <div align='center' className="container">
                 
                     <h1 className="display-4" style={{ color: this.props.color }}>{this.props.title}</h1>

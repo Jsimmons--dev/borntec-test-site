@@ -1,7 +1,7 @@
 @media only screen and (max-width: 767px)  {
     .main-header {
       background: url(../../../bundled-assets/servers_small.jpg) no-repeat center center;
-      background-size: contain;
+      background-size: cover;
     }
   }
   
