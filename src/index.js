@@ -20,7 +20,6 @@ import Contact from './components/Contact/Contact'
 import { theme } from './constants';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
-
 ReactDOM.render((
     <Router
         onUpdate={() => { window.scrollTo(0, 0); $(".navbar-controller").removeClass("show"); }
@@ -36,6 +35,7 @@ ReactDOM.render((
                 <Route exact path="/about" component={About} />
                 <Route exact path="/blog" component={Blog} />
                 <Route exact path="/article/:id" component={NewsArticle} />
+                <Route path='/login' component={() => {window.location.href = 'https://www.borntec.com/login-2/';}}/>
                 <Footer />
             </div>
         </ScrollToTop>
