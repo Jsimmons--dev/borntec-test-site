@@ -94,9 +94,11 @@ export class Footer extends Component {
                     </div>
                 </div>
 
-                <div className="footer-copyright text-center py-3 text-light"><strong>© 2018 Copyright BornTec <a href="https://www.borntec.com/login" ><i className='fas fa-lock'></i></a></strong></div>
+                <div className="footer-copyright text-center py-3 text-light"><strong>© 2018 Copyright BornTec <Link to='/login'><i className='fas fa-lock'></i></Link></strong></div>
 
             </footer>
         );
     }
 }
+
+//href="https://www.borntec.com/login-2/" 
