@@ -11,7 +11,7 @@ class NewsFeed extends Component {
         this.subscribeRef = React.createRef()
     }
     componentDidMount() {
-        var wp = new WPAPI({ endpoint: 'http://borntec.com/wp-json' });
+        var wp = new WPAPI({ endpoint: 'https://borntec.com/wp-json' });
         wp.posts().perPage(5).categories([11]).then((data) => {
             this.setState((state, props) => ({ posts: data }))
             window.hbspt.forms.create({

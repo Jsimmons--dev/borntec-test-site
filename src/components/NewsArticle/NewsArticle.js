@@ -15,7 +15,7 @@ class NewsArticle extends Component {
         this.progressRef = React.createRef()
     }
     componentDidMount() {
-        var wp = new WPAPI({ endpoint: 'http://borntec.com/wp-json' });
+        var wp = new WPAPI({ endpoint: 'https://borntec.com/wp-json' });
         wp.posts().id(this.props.match.params.id).then((data) => {
             this.setState((state, props) => ({ post: data, media: this.state.media, tags: this.state.tags }))
             if (this.state.featured_media) {

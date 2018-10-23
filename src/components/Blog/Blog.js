@@ -12,7 +12,7 @@ class Blog extends Component {
         this.progressRef = React.createRef()
     }
     componentDidMount() {
-        var wp = new WPAPI({ endpoint: 'http://borntec.com/wp-json' });
+        var wp = new WPAPI({ endpoint: 'https://borntec.com/wp-json' });
         wp.posts()
         //is this going to work with more than 10 cat 113s? may need to implement paging
             .categories([113])
