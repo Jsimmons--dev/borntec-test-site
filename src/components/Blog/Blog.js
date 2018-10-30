@@ -49,7 +49,7 @@ class Blog extends Component {
 
             return (<div className='card' style={{ background: theme.background, border: 'none', width: '520px', margin: '5px' }} key={i}>
                 <div className='card-body blog-height' style={{ width: 'auto', overflow: 'hidden' }}>
-                    <img className='blog-width' src={this.state["media"+"_"+d.featured_media] || '4 black_crop.png'} style={{}}></img>
+                    <img className='blog-width' src={this.state["media"+"_"+d.featured_media] || '/4 black_crop.png'} style={{}}></img>
                 </div>
                 <p align='right' style={{ padding: '10px', fontSize: '12px', paddingLeft: '1.25rem' }}>{new Date(d.date).toDateString()}</p>
                 <br />

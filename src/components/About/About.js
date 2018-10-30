@@ -12,7 +12,7 @@ class About extends Component {
     render() {
         return (
             <div>
-                <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(./assets/stockbw.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
+                <div id='main-page-header' className="container-fluid jumbotron-fluid" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap', 'alignContent': 'center', background: 'url(/assets/stockbw.jpg) no-repeat center center', backgroundSize: 'cover' }}  >
                 <h1 id="main-tag" style={{ fontFamily: 'Maven Pro' }} className="display-5">About <strong>BornTec</strong></h1>
                 <h4 id="supporting-tag" style={{ flexBasis: '100%', marginLeft: '1.5em', marginRight: '1.5em', textAlign: 'center', fontFamily: 'Maven Pro' }}> Learn about us and <strong>explore </strong>our site.</h4>
             </div>

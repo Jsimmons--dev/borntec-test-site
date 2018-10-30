@@ -8,8 +8,8 @@ export class Nav extends Component {
             <nav style={{}} className="top-down-gradient navbar navbar-dark navbar-expand-lg fixed-top">
                 <div className="container-fluid">
                     <div className="navbar-header container-fluid">
-                        <a className="navbar-brand" href="#">
-                            <img style={{ display: 'inline' }} className='brand-icon logo' alt="Brand" src="./4 black_crop.png" />
+                        <a className="navbar-brand" href="/">
+                            <img style={{ display: 'inline' }} className='brand-icon logo' alt="Brand" src="/4 black_crop.png" />
                         </a>
                         <button className="navbar-toggler float-right" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
