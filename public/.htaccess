@@ -1,0 +1,29 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^(.*)$ "site.html"  [L]
+
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^/site/*
+RewriteRule ^(.*)$ "site.html"  [L]
+
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+
+
+</IfModule>
+
+# END WordPress
+RewriteCond %{HTTP_HOST} ^borncapital\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.borncapital\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteRule ^(.*)$ "http\:\/\/borntec\.com\/$1" [R=301,L]
