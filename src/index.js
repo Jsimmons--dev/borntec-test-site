@@ -13,7 +13,7 @@ import Clients from './components/Clients/Clients'
 import About from './components/About/About'
 import Blog from './components/Blog/Blog'
 import registerServiceWorker from './registerServiceWorker'
-import { HashRouter as Router, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import { Nav } from './components/Nav/Nav'
 import { Footer } from './components/Footer/Footer';
 import Contact from './components/Contact/Contact'
@@ -22,6 +22,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 ReactDOM.render((
     <Router
+        basename="/site"
         onUpdate={() => { window.scrollTo(0, 0); $(".navbar-controller").removeClass("show"); }
         } >
         <ScrollToTop>
@@ -35,7 +36,7 @@ ReactDOM.render((
                 <Route exact path="/about" component={About} />
                 <Route exact path="/blog" component={Blog} />
                 <Route exact path="/article/:id" component={NewsArticle} />
-                <Route path='/login' component={() => {window.location.href = 'https://www.borntec.com/login-2/';}}/>
+                <Route path='/login' component={() => { window.location.href = 'https://www.borntec.com/login-2/'; }} />
                 <Footer />
             </div>
         </ScrollToTop>
