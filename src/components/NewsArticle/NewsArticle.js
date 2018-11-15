@@ -62,7 +62,7 @@ class NewsArticle extends Component {
 
 
                 <div className='card-body news-height' style={{ width: 'auto', overflow: 'hidden' }}>
-                    <img className='news-width' src={this.state.media ? this.state.media.guid.rendered : '4 black_crop.png'} style={{}}></img>
+                    <img className='news-width' src={this.state.media ? this.state.media.guid.rendered : '/4 black_crop.png'} style={{}}></img>
                 </div>
                 <p align='right' style={{ padding: '10px', fontSize: '12px', paddingLeft: '1.25rem' }}>{new Date(d.date).toDateString()}</p>
                 <br />

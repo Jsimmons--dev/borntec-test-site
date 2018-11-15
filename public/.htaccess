@@ -4,7 +4,12 @@ RewriteEngine On
 
 RewriteBase /
 RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{QUERY_STRING} !^(.+)$ [NC]
 RewriteRule ^(.*)$ "site.html"  [L]
+
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule . /index.php [L,QSA]
 
 RewriteBase /
 RewriteCond %{REQUEST_URI} ^/site/*

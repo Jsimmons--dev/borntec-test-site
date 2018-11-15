@@ -6,6 +6,11 @@ body {
   color: springGreen
 }
 
+.alignright {
+  float: right;
+  margin: 4px 0 7px 24px;
+}
+
 .primary-color-1-bg {
   background-color: springGreen
 }

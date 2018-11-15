@@ -81,10 +81,10 @@ export class Footer extends Component {
                                 </div>
                                 <div style={{ display: 'flex', justifyContent: 'space-around' }}>
                                     <div style={{ color: 'grey', padding: '5px' }}>
-                                        <a href='https://www.linkedin.com/company/born-technology'><img src='./assets/icons/In-White-41px-R.png'></img></a>
+                                        <a href='https://www.linkedin.com/company/born-technology'><img src='/assets/icons/In-White-41px-R.png'></img></a>
                                     </div>
                                     <div style={{ color: 'grey', padding: '5px' }}>
-                                        <a href="https://twitter.com/borntec"><img width='51px' src='./assets/icons/Twitter_Logo_WhiteOnImage.svg'></img></a>
+                                        <a href="https://twitter.com/borntec"><img width='51px' src='/assets/icons/Twitter_Logo_WhiteOnImage.svg'></img></a>
                                     </div>
 
                                 </div>
