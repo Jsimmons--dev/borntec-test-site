@@ -11,6 +11,11 @@ body {
   margin: 4px 0 7px 24px;
 }
 
+.alignleft {
+  float: left;
+  margin: 4px 24px 7px 0;
+}
+
 .primary-color-1-bg {
   background-color: springGreen
 }
